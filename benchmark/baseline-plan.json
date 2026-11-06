@@ -1,0 +1,13 @@
+{
+  "concurrency_levels": [
+    1,
+    2,
+    4
+  ],
+  "concurrency_repetitions": 2,
+  "created_before_calls": true,
+  "effort": "high",
+  "max_tokens": 65536,
+  "output_objects": 64,
+  "serial_pairs": 12
+}

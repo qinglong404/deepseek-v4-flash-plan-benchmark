@@ -1,0 +1,65 @@
+{
+  "events": [
+    {
+      "attempt_id": "f4d64c7f-9c69-4286-b5ce-e3db0cc5c3be",
+      "provider": "goat",
+      "phase": "core_first",
+      "trial_id": "record_conflicts-r0",
+      "session": "magpie-v2-b6b4010f-0fcb-4671-a126-0ae34f462d1e",
+      "started": "2026-11-05T18:42:07.051951+08:00",
+      "model_requested": "commandcode-plan/deepseek/deepseek-v4.1-flash",
+      "collector_exit_code": 143,
+      "cause": "SIGTERM_source_unknown",
+      "administratively_invalidated": true,
+      "gateway_evidence": {
+        "t": "2026-11-05T18:42:07.058451485+08:00",
+        "provider": "commandcode-plan",
+        "model": "deepseek/deepseek-v4.1-flash",
+        "req": "commandcode-plan/deepseek/deepseek-v4.1-flash",
+        "served": "deepseek/deepseek-v4.1-flash",
+        "ms": 208453,
+        "ttft_ms": 2451,
+        "first_text_ms": null,
+        "status": 499,
+        "in": 0,
+        "out": 0,
+        "reasoning": null,
+        "cache_read": 0
+      }
+    },
+    {
+      "attempt_id": "9972be7f-e6bb-4530-871e-89006c830a20",
+      "provider": "go",
+      "phase": "core_repair",
+      "trial_id": "record_conflicts-r0",
+      "session": "magpie-v2-8a6ceff5-f090-4632-9a19-1ba5f50824e8",
+      "started": "2026-11-05T18:44:48.375612+08:00",
+      "model_requested": "opencode-go/deepseek-v4.1-flash",
+      "collector_exit_code": 143,
+      "cause": "SIGTERM_source_unknown",
+      "administratively_invalidated": true,
+      "gateway_evidence": {
+        "t": "2026-11-05T18:44:48.382216066+08:00",
+        "provider": "opencode-go",
+        "model": "deepseek-v4.1-flash",
+        "req": "opencode-go/deepseek-v4.1-flash",
+        "served": "deepseek-v4.1-flash",
+        "ms": 47129,
+        "ttft_ms": 2179,
+        "first_text_ms": null,
+        "status": 499,
+        "in": 0,
+        "out": 0,
+        "reasoning": null,
+        "cache_read": 0
+      }
+    }
+  ],
+  "invalidated_trial": "record_conflicts-r0",
+  "excluded_attempt_ids": [
+    "2461cfaf-dd29-4ca4-b17b-c37c8b3922fc",
+    "9972be7f-e6bb-4530-871e-89006c830a20",
+    "f4d64c7f-9c69-4286-b5ce-e3db0cc5c3be"
+  ],
+  "recovery": "repeat the entire affected provider pair; preserve all original attempt records"
+}

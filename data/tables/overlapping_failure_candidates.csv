@@ -1,0 +1,5 @@
+﻿attempt_id_a,provider_a,phase_a,failure_a,attempt_id_b,provider_b,phase_b,failure_b,overlap_seconds,interpretation
+a2950ec1-dfd1-40d5-936c-023e3080b5de,goat,core_first,transport,f55e2307-ac88-44f0-ab5a-ceb9c0f943a4,go,core_first,transport,141.110919,overlapping incomplete calls; common network cause unproven
+db177cbe-88e1-4f85-9f30-b39b528dc54c,goat,core_first,transport,f55e2307-ac88-44f0-ab5a-ceb9c0f943a4,go,core_first,transport,141.112208,overlapping incomplete calls; common network cause unproven
+c1f38e9a-08ca-4182-b3f5-e94c24024bb1,go,low_core_first,transport,3e3455ba-32f1-4977-abd4-a9956da25e88,goat,low_core_first,transport,173.753682,overlapping incomplete calls; common network cause unproven
+3f3d4e21-26d7-46d3-b1ea-2091e0378e8c,go,low_core_first,transport,3e3455ba-32f1-4977-abd4-a9956da25e88,goat,low_core_first,transport,173.748078,overlapping incomplete calls; common network cause unproven

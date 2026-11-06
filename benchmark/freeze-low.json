@@ -1,0 +1,9 @@
+{
+  "LOW_EFFORT_ADDENDUM.md": "e59ac6d5be4450b09c92f707bbe415565005f4f6d4fa5f1c7854b11af405b04f",
+  "client.py": "2533e9add1d9bae5fa933e41b0f8617465567dcd34f660b763196e9dd244f166",
+  "grading.py": "69900301ee2bfde718de7fe60f7355feb5bf451d1f1696a5f5cfc1b6ec01d1b8",
+  "worker.py": "a743806b09d28a19b88abe34700740ca2493d927dc6a8899221a790f8f8305af",
+  "run_low.py": "515aa5cecedf1077acfb5721db3e0293b71fdaffcb16f984c3297d522287d605",
+  "contracts/bank.py": "a9075dec404a89db11d4c0bee7fbb13cb48543c1c51dcfc2c290ddcf2406df95",
+  "contracts/fixtures.json": "838247238d6152665e530ffdf93ba31d8e557ecf4a287ef37ef7eb61dca32317"
+}

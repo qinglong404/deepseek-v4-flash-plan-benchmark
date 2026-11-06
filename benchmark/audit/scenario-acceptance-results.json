@@ -1,0 +1,518 @@
+{
+  "bank_sha256": "4d90228d712edd6baef20334b2f909536622bf584545415ecbf942ab878bbe08",
+  "version": "repository-context-bank-v2.1",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "no_external_calls": true,
+  "no_credential_reads": true,
+  "references": [
+    {
+      "id": "inventory_idempotency",
+      "passed": 40,
+      "total": 40
+    },
+    {
+      "id": "configuration_overlay",
+      "passed": 62,
+      "total": 62
+    }
+  ],
+  "negative_controls": [
+    {
+      "id": "inventory_idempotency/initial_bugs",
+      "passed": 23,
+      "total": 40,
+      "failed": [
+        "constructor_detaches_stock",
+        "constructor_reject_boolean",
+        "reserve_replay_no_mutation",
+        "success_result_detached_on_first_and_replay",
+        "reserve_conflict_quantity",
+        "unknown_sku_failure_is_cached_and_detached",
+        "insufficient_failure_is_cached_and_detached",
+        "reserve_invalid_atomic_bool",
+        "validate_before_bool_equal_cached_fingerprint",
+        "partial_refunds_conserve_stock",
+        "over_refund_uses_remaining_and_is_cached",
+        "not_found_refund_cached_before_reservation_exists",
+        "refund_replay_detaches_result_and_is_noop",
+        "refund_fingerprint_and_validate_before_cache",
+        "refund_invalid_atomic_bool",
+        "identifier_whitespace_is_significant",
+        "mixed_multiple_sku_conservation"
+      ]
+    },
+    {
+      "id": "inventory_idempotency/ignore_quantity_in_fingerprint",
+      "passed": 37,
+      "total": 40,
+      "failed": [
+        "reserve_conflict_quantity",
+        "over_refund_uses_remaining_and_is_cached",
+        "refund_fingerprint_and_validate_before_cache"
+      ]
+    },
+    {
+      "id": "inventory_idempotency/restore_full_amount_on_partial_refund",
+      "passed": 37,
+      "total": 40,
+      "failed": [
+        "partial_refunds_conserve_stock",
+        "identifier_whitespace_is_significant",
+        "mixed_multiple_sku_conservation"
+      ]
+    },
+    {
+      "id": "inventory_idempotency/result_aliases_ledger",
+      "passed": 34,
+      "total": 40,
+      "failed": [
+        "reserve_replay_no_mutation",
+        "success_result_detached_on_first_and_replay",
+        "unknown_sku_failure_is_cached_and_detached",
+        "insufficient_failure_is_cached_and_detached",
+        "not_found_refund_cached_before_reservation_exists",
+        "refund_replay_detaches_result_and_is_noop"
+      ]
+    },
+    {
+      "id": "inventory_idempotency/booleans_count_as_quantities",
+      "passed": 35,
+      "total": 40,
+      "failed": [
+        "constructor_reject_boolean",
+        "reserve_invalid_atomic_bool",
+        "validate_before_bool_equal_cached_fingerprint",
+        "refund_fingerprint_and_validate_before_cache",
+        "refund_invalid_atomic_bool"
+      ]
+    },
+    {
+      "id": "configuration_overlay/initial_bugs",
+      "passed": 28,
+      "total": 62,
+      "failed": [
+        "ordered_nested_overlays_and_tombstones",
+        "all_inputs_and_defaults_detached",
+        "environment_all_fields_precedence_and_normalization",
+        "environment_bool_false",
+        "environment_bool_FALSE",
+        "environment_bool_0",
+        "env_integer_reject_sign_plus",
+        "env_integer_reject_unicode",
+        "env_integer_reject_underscore",
+        "env_integer_reject_int",
+        "env_integer_reject_bool",
+        "env_bool_reject_yes",
+        "env_bool_reject_empty",
+        "env_bool_reject_two",
+        "env_bool_reject_boolean",
+        "env_bool_reject_integer",
+        "env_bool_reject_none",
+        "env_host_reject_integer",
+        "env_host_reject_empty",
+        "structure_reject_base_shape",
+        "structure_reject_layers_shape",
+        "structure_reject_environment_shape",
+        "structure_reject_layer_shape",
+        "structure_reject_tag_empty",
+        "structure_reject_tag_numeric_key",
+        "structure_reject_tag_numeric_value",
+        "structure_reject_tag_list_value",
+        "final_reject_count_bool",
+        "final_reject_count_high",
+        "final_reject_worker_budget",
+        "inclusive_numeric_and_cross_field_boundaries",
+        "later_values_cannot_hide_structural_errors",
+        "base_tombstones_and_delete_then_recreate",
+        "unrecognized_environment_keys_are_ignored"
+      ]
+    },
+    {
+      "id": "configuration_overlay/permissive_env_and_truthy_false",
+      "passed": 53,
+      "total": 62,
+      "failed": [
+        "environment_bool_false",
+        "environment_bool_FALSE",
+        "environment_bool_0",
+        "env_integer_reject_sign_plus",
+        "env_integer_reject_unicode",
+        "env_integer_reject_underscore",
+        "env_bool_reject_yes",
+        "env_bool_reject_empty",
+        "env_bool_reject_two"
+      ]
+    },
+    {
+      "id": "configuration_overlay/tombstones_survive",
+      "passed": 60,
+      "total": 62,
+      "failed": [
+        "ordered_nested_overlays_and_tombstones",
+        "base_tombstones_and_delete_then_recreate"
+      ]
+    },
+    {
+      "id": "configuration_overlay/missing_worker_budget_constraint",
+      "passed": 61,
+      "total": 62,
+      "failed": [
+        "final_reject_worker_budget"
+      ]
+    },
+    {
+      "id": "configuration_overlay/boolean_leaf_is_integer",
+      "passed": 60,
+      "total": 62,
+      "failed": [
+        "final_reject_port_bool",
+        "final_reject_count_bool"
+      ]
+    }
+  ],
+  "independent_repository_checks": [
+    {
+      "id": "inventory_idempotency/tests_py_ignored",
+      "ok": true
+    },
+    {
+      "id": "inventory_idempotency/external_import_rejected",
+      "ok": true
+    },
+    {
+      "id": "inventory_idempotency/repository_import_alias",
+      "ok": true,
+      "grade": {
+        "passed": 40,
+        "total": 40,
+        "checks": [
+          {
+            "name": "constructor_shape_and_empty",
+            "ok": true
+          },
+          {
+            "name": "constructor_detaches_stock",
+            "ok": true
+          },
+          {
+            "name": "constructor_reject_not_dict",
+            "ok": true
+          },
+          {
+            "name": "constructor_reject_negative",
+            "ok": true
+          },
+          {
+            "name": "constructor_reject_boolean",
+            "ok": true
+          },
+          {
+            "name": "constructor_reject_float",
+            "ok": true
+          },
+          {
+            "name": "constructor_reject_string",
+            "ok": true
+          },
+          {
+            "name": "constructor_reject_empty_sku",
+            "ok": true
+          },
+          {
+            "name": "constructor_reject_numeric_sku",
+            "ok": true
+          },
+          {
+            "name": "reserve_shape_and_stock",
+            "ok": true
+          },
+          {
+            "name": "reserve_replay_no_mutation",
+            "ok": true
+          },
+          {
+            "name": "success_result_detached_on_first_and_replay",
+            "ok": true
+          },
+          {
+            "name": "reserve_conflict_quantity",
+            "ok": true
+          },
+          {
+            "name": "reserve_conflict_sku",
+            "ok": true
+          },
+          {
+            "name": "unknown_sku_failure_is_cached_and_detached",
+            "ok": true
+          },
+          {
+            "name": "insufficient_failure_is_cached_and_detached",
+            "ok": true
+          },
+          {
+            "name": "reserve_invalid_atomic_bool",
+            "ok": true
+          },
+          {
+            "name": "reserve_invalid_atomic_float",
+            "ok": true
+          },
+          {
+            "name": "reserve_invalid_atomic_zero",
+            "ok": true
+          },
+          {
+            "name": "reserve_invalid_atomic_negative",
+            "ok": true
+          },
+          {
+            "name": "reserve_invalid_atomic_empty_request",
+            "ok": true
+          },
+          {
+            "name": "reserve_invalid_atomic_numeric_request",
+            "ok": true
+          },
+          {
+            "name": "reserve_invalid_atomic_empty_sku",
+            "ok": true
+          },
+          {
+            "name": "reserve_invalid_atomic_numeric_sku",
+            "ok": true
+          },
+          {
+            "name": "validate_before_bool_equal_cached_fingerprint",
+            "ok": true
+          },
+          {
+            "name": "partial_refunds_conserve_stock",
+            "ok": true
+          },
+          {
+            "name": "over_refund_uses_remaining_and_is_cached",
+            "ok": true
+          },
+          {
+            "name": "not_found_refund_cached_before_reservation_exists",
+            "ok": true
+          },
+          {
+            "name": "refund_replay_detaches_result_and_is_noop",
+            "ok": true
+          },
+          {
+            "name": "refund_fingerprint_and_validate_before_cache",
+            "ok": true
+          },
+          {
+            "name": "request_ids_global_across_operations",
+            "ok": true
+          },
+          {
+            "name": "refund_invalid_atomic_bool",
+            "ok": true
+          },
+          {
+            "name": "refund_invalid_atomic_float",
+            "ok": true
+          },
+          {
+            "name": "refund_invalid_atomic_zero",
+            "ok": true
+          },
+          {
+            "name": "refund_invalid_atomic_negative",
+            "ok": true
+          },
+          {
+            "name": "refund_invalid_atomic_request",
+            "ok": true
+          },
+          {
+            "name": "refund_invalid_atomic_reservation",
+            "ok": true
+          },
+          {
+            "name": "refund_invalid_atomic_numeric_reservation",
+            "ok": true
+          },
+          {
+            "name": "identifier_whitespace_is_significant",
+            "ok": true
+          },
+          {
+            "name": "mixed_multiple_sku_conservation",
+            "ok": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "configuration_overlay/tests_py_ignored",
+      "ok": true
+    },
+    {
+      "id": "configuration_overlay/external_import_rejected",
+      "ok": true
+    },
+    {
+      "id": "inventory_idempotency/20_operation_full_refund_and_replay",
+      "ok": true
+    },
+    {
+      "id": "configuration_overlay/repaired_types_tombstones_environment_boundary",
+      "ok": true
+    }
+  ],
+  "context_checks": [
+    {
+      "id": "context-16k-seed-0",
+      "prompt_sha256": "a9aa336a6d357c259b31bf56f3b42947fd226a7cee5221b3fd387ead9770c46a",
+      "chars": 64055,
+      "estimated_tokens": 16014,
+      "records": 253,
+      "strict_independent_oracle_agrees": true,
+      "order_invariant": true
+    },
+    {
+      "id": "context-16k-seed-1",
+      "prompt_sha256": "8707ef30106dd5288f7f9452c3788a274c3a7d095df554eae23b503b3ecf4432",
+      "chars": 64191,
+      "estimated_tokens": 16048,
+      "records": 253,
+      "strict_independent_oracle_agrees": true,
+      "order_invariant": true
+    },
+    {
+      "id": "context-16k-seed-2",
+      "prompt_sha256": "0f1d3e0d1f323fb148373712eb10a88e1f704125de4d5f1232969ba1f0573225",
+      "chars": 64110,
+      "estimated_tokens": 16028,
+      "records": 253,
+      "strict_independent_oracle_agrees": true,
+      "order_invariant": true
+    },
+    {
+      "id": "context-64k-seed-0",
+      "prompt_sha256": "42b3b6cdac4200dee76c46a083de94431f8a79169c7d537bc13f57b92df60baf",
+      "chars": 256248,
+      "estimated_tokens": 64062,
+      "records": 948,
+      "strict_independent_oracle_agrees": true,
+      "order_invariant": true
+    },
+    {
+      "id": "context-64k-seed-1",
+      "prompt_sha256": "a7e10f1a20adf32333e98acf383e0967ea33b8b3dfd93a72f2263eb2e8c85d08",
+      "chars": 256022,
+      "estimated_tokens": 64006,
+      "records": 948,
+      "strict_independent_oracle_agrees": true,
+      "order_invariant": true
+    },
+    {
+      "id": "context-64k-seed-2",
+      "prompt_sha256": "59084161a3a83dcac61799fbd2ea30a90d7ad25761c84a473a19450e57fb82d0",
+      "chars": 256122,
+      "estimated_tokens": 64031,
+      "records": 948,
+      "strict_independent_oracle_agrees": true,
+      "order_invariant": true
+    },
+    {
+      "id": "context-160k-seed-0",
+      "prompt_sha256": "68d0a252c9455d8c1db1e66d4efa8e410b4298473346492021d8292515efaec3",
+      "chars": 640123,
+      "estimated_tokens": 160031,
+      "records": 2338,
+      "strict_independent_oracle_agrees": true,
+      "order_invariant": true
+    },
+    {
+      "id": "context-160k-seed-1",
+      "prompt_sha256": "b46b148d4604b79b53ccac4566d818050f2f5bd53f5ca2f635f4d603c87cdf49",
+      "chars": 640239,
+      "estimated_tokens": 160060,
+      "records": 2337,
+      "strict_independent_oracle_agrees": true,
+      "order_invariant": true
+    },
+    {
+      "id": "context-160k-seed-2",
+      "prompt_sha256": "bbe20697101e6a6504acabbfe2fc0c524f6a185ef918794b04eb7606dd0437f9",
+      "chars": 640026,
+      "estimated_tokens": 160007,
+      "records": 2337,
+      "strict_independent_oracle_agrees": true,
+      "order_invariant": true
+    },
+    {
+      "id": "context-320k-seed-0",
+      "prompt_sha256": "2b35c2a6037f130b7d06d7c3ac3826b2124a931276b7b9f09f7bc7e976bebdd0",
+      "chars": 1280160,
+      "estimated_tokens": 320040,
+      "records": 4654,
+      "strict_independent_oracle_agrees": true,
+      "order_invariant": true
+    },
+    {
+      "id": "context-320k-seed-1",
+      "prompt_sha256": "cce9e89f2ddc8647f25dcba68413614e302a2635c420dfc591779d4f49736bbc",
+      "chars": 1280247,
+      "estimated_tokens": 320062,
+      "records": 4654,
+      "strict_independent_oracle_agrees": true,
+      "order_invariant": true
+    },
+    {
+      "id": "context-320k-seed-2",
+      "prompt_sha256": "a1afe266e7ea2d9574f67e4cfbc52e6a941c1d661854a4f057bc3543a78be3f3",
+      "chars": 1280185,
+      "estimated_tokens": 320047,
+      "records": 4656,
+      "strict_independent_oracle_agrees": true,
+      "order_invariant": true
+    }
+  ],
+  "oracle_edges": [
+    {
+      "id": "json_bool_integer_duplicate_distinction",
+      "ok": false,
+      "actual": {
+        "active_skus": [
+          "a"
+        ],
+        "available_units": 0,
+        "available_value_cents": 0,
+        "highest_value_sku": "a",
+        "over_reserved_skus": [],
+        "owners": {
+          "a": null
+        },
+        "restock_needed": 0,
+        "most_recent_winner_seq": 1,
+        "excluded_conflicting_event_ids": []
+      },
+      "expected": {
+        "active_skus": [],
+        "available_units": 0,
+        "available_value_cents": 0,
+        "highest_value_sku": null,
+        "over_reserved_skus": [],
+        "owners": {},
+        "restock_needed": 0,
+        "most_recent_winner_seq": 0,
+        "excluded_conflicting_event_ids": [
+          "same"
+        ]
+      },
+      "affects_generated_cases": false
+    },
+    {
+      "id": "conflicting_cross_tenant_duplicate",
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿task_id,n_pairs,first_pass_difference_goat_minus_go,solved_difference_goat_minus_go,first_quality_winner,solved_quality_winner,paired_first_seconds_ratio_geomean
+atomic_ledger,2,-0.5,0.0,go,tie,1.8953711824860853
+decimal_invoice,2,0.5,0.0,goat,tie,0.9419127527166685
+interval_allocator,2,-0.5,-1.0,go,go,1.0520552653573936
+json_patch,2,-1.0,-1.0,go,go,2.1390274792210437
+migration_plan,2,0.5,0.0,goat,tie,3.658338833711246
+path_glob,2,-0.5,-0.5,go,go,1.5531211538509548
+priority_schedule,2,-0.5,0.0,go,tie,4.1895098028205
+record_conflicts,2,0.5,0.0,goat,tie,1.906245566367975
+shortest_route,2,0.0,0.5,tie,goat,1.2772170712054747
+sse_stream,2,0.0,0.0,tie,tie,3.2029908291681495
+ttl_lru,2,-0.5,0.0,go,tie,2.471748041014684
+utf8_frames,2,-1.0,0.0,go,tie,5.151566560805764

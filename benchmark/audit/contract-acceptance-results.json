@@ -1,0 +1,425 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "hashes": {
+    "fixtures.json": "838247238d6152665e530ffdf93ba31d8e557ecf4a287ef37ef7eb61dca32317",
+    "bank.py": "a9075dec404a89db11d4c0bee7fbb13cb48543c1c51dcfc2c290ddcf2406df95",
+    "manifest.json": "e170c2966f8fdc0bd1704efa4adc0cec0ce21dffa6471f6ffb9f152e2d31bcc1"
+  },
+  "no_model_calls": true,
+  "no_credentials_read": true,
+  "references": [
+    {
+      "task": "sse_stream",
+      "passed": 54,
+      "total": 54
+    },
+    {
+      "task": "ttl_lru",
+      "passed": 44,
+      "total": 44
+    },
+    {
+      "task": "atomic_ledger",
+      "passed": 46,
+      "total": 46
+    },
+    {
+      "task": "priority_schedule",
+      "passed": 44,
+      "total": 44
+    },
+    {
+      "task": "json_patch",
+      "passed": 60,
+      "total": 60
+    },
+    {
+      "task": "path_glob",
+      "passed": 68,
+      "total": 68
+    },
+    {
+      "task": "interval_allocator",
+      "passed": 44,
+      "total": 44
+    },
+    {
+      "task": "utf8_frames",
+      "passed": 45,
+      "total": 45
+    },
+    {
+      "task": "decimal_invoice",
+      "passed": 46,
+      "total": 46
+    },
+    {
+      "task": "migration_plan",
+      "passed": 46,
+      "total": 46
+    },
+    {
+      "task": "shortest_route",
+      "passed": 48,
+      "total": 48
+    },
+    {
+      "task": "record_conflicts",
+      "passed": 44,
+      "total": 44
+    }
+  ],
+  "negative_controls": [
+    {
+      "task": "sse_stream",
+      "passed": 50,
+      "total": 54,
+      "failed": [
+        "payload-05-whole",
+        "payload-05-bytewise",
+        "payload-05-random",
+        "payload-16-bytewise"
+      ]
+    },
+    {
+      "task": "ttl_lru",
+      "passed": 19,
+      "total": 44,
+      "failed": [
+        "boundary-01",
+        "boundary-04",
+        "boundary-05",
+        "churn-00",
+        "churn-01",
+        "churn-02",
+        "churn-03",
+        "churn-05",
+        "churn-06",
+        "churn-07",
+        "churn-10",
+        "churn-12",
+        "churn-13",
+        "churn-14",
+        "churn-15",
+        "churn-16",
+        "churn-17",
+        "churn-18",
+        "churn-22",
+        "churn-28",
+        "churn-29",
+        "churn-30",
+        "churn-32",
+        "churn-33",
+        "churn-35"
+      ]
+    },
+    {
+      "task": "atomic_ledger",
+      "passed": 19,
+      "total": 46,
+      "failed": [
+        "atomic-03",
+        "ledger-seed-00",
+        "ledger-seed-01",
+        "ledger-seed-02",
+        "ledger-seed-04",
+        "ledger-seed-05",
+        "ledger-seed-06",
+        "ledger-seed-07",
+        "ledger-seed-08",
+        "ledger-seed-09",
+        "ledger-seed-10",
+        "ledger-seed-12",
+        "ledger-seed-14",
+        "ledger-seed-15",
+        "ledger-seed-16",
+        "ledger-seed-17",
+        "ledger-seed-18",
+        "ledger-seed-19",
+        "ledger-seed-20",
+        "ledger-seed-21",
+        "ledger-seed-23",
+        "ledger-seed-25",
+        "ledger-seed-26",
+        "ledger-seed-27",
+        "ledger-seed-28",
+        "ledger-seed-29",
+        "ledger-seed-31"
+      ]
+    },
+    {
+      "task": "priority_schedule",
+      "passed": 9,
+      "total": 44,
+      "failed": [
+        "schedule-02",
+        "schedule-03",
+        "schedule-04",
+        "dag-00",
+        "dag-01",
+        "dag-02",
+        "dag-03",
+        "dag-04",
+        "dag-05",
+        "dag-06",
+        "dag-07",
+        "dag-08",
+        "dag-09",
+        "dag-10",
+        "dag-11",
+        "dag-12",
+        "dag-13",
+        "dag-14",
+        "dag-15",
+        "dag-16",
+        "dag-17",
+        "dag-18",
+        "dag-19",
+        "dag-20",
+        "dag-21",
+        "dag-22",
+        "dag-23",
+        "dag-24",
+        "dag-25",
+        "dag-26",
+        "dag-27",
+        "dag-28",
+        "dag-29",
+        "dag-30",
+        "dag-31"
+      ]
+    },
+    {
+      "task": "json_patch",
+      "passed": 21,
+      "total": 60,
+      "failed": [
+        "pointer-00",
+        "pointer-01",
+        "pointer-02",
+        "pointer-03",
+        "pointer-04",
+        "pointer-11",
+        "pointer-12",
+        "pointer-13",
+        "pointer-16",
+        "pointer-17",
+        "pointer-18",
+        "pointer-23",
+        "pointer-24",
+        "pointer-31",
+        "pointer-33",
+        "pointer-35",
+        "pointer-36",
+        "pointer-37",
+        "pointer-38",
+        "array-edit-00",
+        "array-edit-01",
+        "array-edit-02",
+        "array-edit-03",
+        "array-edit-04",
+        "array-edit-05",
+        "array-edit-06",
+        "array-edit-07",
+        "array-edit-08",
+        "array-edit-09",
+        "array-edit-10",
+        "array-edit-11",
+        "array-edit-12",
+        "array-edit-13",
+        "array-edit-14",
+        "array-edit-15",
+        "array-edit-16",
+        "array-edit-17",
+        "array-edit-18",
+        "array-edit-19"
+      ]
+    },
+    {
+      "task": "path_glob",
+      "passed": 63,
+      "total": 68,
+      "failed": [
+        "glob-03",
+        "glob-05",
+        "glob-11",
+        "glob-31",
+        "glob-32"
+      ]
+    },
+    {
+      "task": "interval_allocator",
+      "passed": 28,
+      "total": 44,
+      "failed": [
+        "fragmentation-00",
+        "fragmentation-01",
+        "fragmentation-03",
+        "fragmentation-05",
+        "fragmentation-06",
+        "fragmentation-10",
+        "fragmentation-11",
+        "fragmentation-15",
+        "fragmentation-17",
+        "fragmentation-18",
+        "fragmentation-21",
+        "fragmentation-22",
+        "fragmentation-23",
+        "fragmentation-25",
+        "fragmentation-27",
+        "fragmentation-31"
+      ]
+    },
+    {
+      "task": "utf8_frames",
+      "passed": 39,
+      "total": 45,
+      "failed": [
+        "error-state-07",
+        "error-state-08",
+        "error-state-09",
+        "error-state-10",
+        "error-state-11",
+        "error-state-12"
+      ]
+    },
+    {
+      "task": "decimal_invoice",
+      "passed": 27,
+      "total": 46,
+      "failed": [
+        "invoice-02",
+        "invoice-03",
+        "invoice-07",
+        "invoice-10",
+        "invoice-12",
+        "rounding-generated-01",
+        "rounding-generated-02",
+        "rounding-generated-06",
+        "rounding-generated-08",
+        "rounding-generated-09",
+        "rounding-generated-10",
+        "rounding-generated-13",
+        "rounding-generated-15",
+        "rounding-generated-16",
+        "rounding-generated-17",
+        "rounding-generated-18",
+        "rounding-generated-19",
+        "rounding-generated-25",
+        "rounding-generated-26"
+      ]
+    },
+    {
+      "task": "migration_plan",
+      "passed": 42,
+      "total": 46,
+      "failed": [
+        "migration-02",
+        "migration-dag-14",
+        "migration-dag-15",
+        "migration-dag-25"
+      ]
+    },
+    {
+      "task": "shortest_route",
+      "passed": 45,
+      "total": 48,
+      "failed": [
+        "route-03",
+        "route-05",
+        "route-graph-11"
+      ]
+    },
+    {
+      "task": "record_conflicts",
+      "passed": 12,
+      "total": 44,
+      "failed": [
+        "conflict-05",
+        "conflict-06",
+        "conflict-batch-00",
+        "conflict-batch-01",
+        "conflict-batch-02",
+        "conflict-batch-03",
+        "conflict-batch-04",
+        "conflict-batch-05",
+        "conflict-batch-06",
+        "conflict-batch-07",
+        "conflict-batch-08",
+        "conflict-batch-09",
+        "conflict-batch-10",
+        "conflict-batch-11",
+        "conflict-batch-12",
+        "conflict-batch-14",
+        "conflict-batch-15",
+        "conflict-batch-16",
+        "conflict-batch-17",
+        "conflict-batch-18",
+        "conflict-batch-19",
+        "conflict-batch-20",
+        "conflict-batch-21",
+        "conflict-batch-23",
+        "conflict-batch-24",
+        "conflict-batch-25",
+        "conflict-batch-26",
+        "conflict-batch-27",
+        "conflict-batch-28",
+        "conflict-batch-29",
+        "conflict-batch-30",
+        "conflict-batch-31"
+      ]
+    }
+  ],
+  "independent_checks": [
+    {
+      "id": "sse_stream/fragmented_BOM_CRLF_empty_data_sticky_fields_dispatch_and_seal",
+      "ok": true
+    },
+    {
+      "id": "ttl_lru/100_fresh_random_sequences_against_list_order_oracle",
+      "ok": true
+    },
+    {
+      "id": "atomic_ledger/type_sensitive_idempotency_invalid_precedence_and_rollback",
+      "ok": true
+    },
+    {
+      "id": "priority_schedule/simultaneous_completion_priority_ties_and_irrelevant_cycle",
+      "ok": true
+    },
+    {
+      "id": "json_patch/decoded_pointer_move_after_remove_literal_dash_and_JSON_equality",
+      "ok": true
+    },
+    {
+      "id": "path_glob/multiple_globstars_escaped_star_newline_and_eager_validation",
+      "ok": true
+    },
+    {
+      "id": "interval_allocator/100_fresh_random_sequences_against_cell_occupancy_oracle",
+      "ok": true
+    },
+    {
+      "id": "utf8_frames/zero_frame_byte_length_seal_and_permanent_error_poison",
+      "ok": true
+    },
+    {
+      "id": "decimal_invoice/100_fresh_cases_against_fraction_only_oracle",
+      "ok": true
+    },
+    {
+      "id": "migration_plan/rollback_largest_then_forward_smallest_closure_and_global_validation",
+      "ok": true
+    },
+    {
+      "id": "shortest_route/100_fresh_graphs_against_simple_path_enumeration",
+      "ok": true
+    },
+    {
+      "id": "record_conflicts/atomic_no_fallback_tombstones_permutation_duplicates_and_JSON_bool_distinction",
+      "ok": true
+    }
+  ],
+  "total_frozen_checks": 589,
+  "all_original_hashes_unchanged": true
+}

@@ -1,0 +1,2261 @@
+{
+  "source": "local Magpie usage log, aggregate only",
+  "not_causal_attribution": true,
+  "window_start": "2026-11-05T18:16:12.396912+08:00",
+  "window_end": "2026-11-05T22:34:58.635421+08:00",
+  "malformed_rows_skipped": 1,
+  "background_calls_by_provider": {
+    "opencode-go": 100,
+    "commandcode-plan": 0
+  },
+  "request_overlap": [
+    {
+      "attempt_id": "aa37f1e9-7790-4d74-9f64-603ed240ae64",
+      "provider": "goat",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "176e64a8-8b0a-4b1c-bb85-dc3ae733af8d",
+      "provider": "go",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "299b4b06-8e7e-40cb-b2d9-da4d3b8dad14",
+      "provider": "go",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "6b260a2e-34d5-42d0-b37f-d1fc339cbed1",
+      "provider": "goat",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "366c1239-39ad-410c-b19e-70362d1bcb85",
+      "provider": "go",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "ac831528-65b0-48cd-90a2-88d58afef3cc",
+      "provider": "goat",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "611c6e35-99ee-4cd4-846e-04acfee588de",
+      "provider": "go",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "f5219d7a-eb27-4f3e-ab6e-c5ad500d6739",
+      "provider": "goat",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "be1406fc-11f2-43af-9147-fdc4c93d39a4",
+      "provider": "go",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "745ea030-6948-460e-b6a4-97275232211d",
+      "provider": "goat",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "49c4bd19-c144-47e3-b947-29b8c9b43f72",
+      "provider": "go",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "d12dafc3-73b7-4086-aa6e-513c055fb213",
+      "provider": "goat",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "a52dc7d0-7453-4f76-8906-4f371f3bd060",
+      "provider": "go",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "96f5d9e7-8802-4c45-ab94-b592e7bd1bd2",
+      "provider": "goat",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "6a29747c-7cca-4f3b-871e-0f2e4c753788",
+      "provider": "go",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "b1feacc3-a659-4fd8-8a14-adee6ec54516",
+      "provider": "goat",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "e6d0de9f-f6a3-44d8-8f50-fda7ce7994fe",
+      "provider": "go",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "14da3e8e-9ea0-41d7-b48b-284696ff487e",
+      "provider": "goat",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "791121e3-e2a6-4e24-93a5-795b06368427",
+      "provider": "goat",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "3c2f7016-2183-4918-963b-acdbb7fddd09",
+      "provider": "go",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "f4f6852c-b62b-42dc-9930-295ac95c4a43",
+      "provider": "goat",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "712a8e49-e441-4b25-b4db-2f800f388099",
+      "provider": "go",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "fe912b10-a526-4290-80ce-4c31490bc262",
+      "provider": "go",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "17a0fcf5-a703-4e98-8fb3-d46564b2fa78",
+      "provider": "goat",
+      "phase": "serial",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "85a95926-60bc-4e07-a59c-cc6751188f32",
+      "provider": "go",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 1,
+      "summed_background_overlap_seconds": 0.600405
+    },
+    {
+      "attempt_id": "9de26a0d-6605-45a7-ae1e-bd1ddcd7a44e",
+      "provider": "go",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 1,
+      "summed_background_overlap_seconds": 3.398263
+    },
+    {
+      "attempt_id": "e036ea8d-dae4-45a1-89fc-80b211cfaace",
+      "provider": "go",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 1,
+      "summed_background_overlap_seconds": 3.852133
+    },
+    {
+      "attempt_id": "98843795-d892-481c-8206-64650e0a9aef",
+      "provider": "goat",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "8d33d98a-0b59-45b2-9471-503e7dfcddc3",
+      "provider": "go",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 1,
+      "summed_background_overlap_seconds": 4.861877
+    },
+    {
+      "attempt_id": "29e128c7-87e6-409f-9ae1-a6b22845eb2b",
+      "provider": "goat",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "5a76dbf2-eae5-4a73-b3d1-ccd111801aa0",
+      "provider": "goat",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "e3a85e41-9dc1-491b-b10f-4c2210e978dd",
+      "provider": "goat",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "c6013ac7-dc47-4326-81a3-4ae3bc9fb620",
+      "provider": "go",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 1,
+      "summed_background_overlap_seconds": 4.944002
+    },
+    {
+      "attempt_id": "ac23ef5d-9bd8-408e-8056-b7be3abc406c",
+      "provider": "go",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 1,
+      "summed_background_overlap_seconds": 5.330836
+    },
+    {
+      "attempt_id": "b5f04464-2a8f-4721-8b29-fac2e2b5b8fe",
+      "provider": "goat",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "092babd4-7863-489e-96e3-312e3b8d5c24",
+      "provider": "goat",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "f8f0f3b7-0c21-4522-aa20-5cb4fe3c89b3",
+      "provider": "goat",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "818c1f2d-88d8-47d9-84b8-0e8da4f7db31",
+      "provider": "go",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 2,
+      "summed_background_overlap_seconds": 6.26743
+    },
+    {
+      "attempt_id": "733626fb-c2eb-42b0-8314-bc83afb166b6",
+      "provider": "goat",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "ef76c0b9-50d0-4a6e-8718-188bb28cc3c6",
+      "provider": "goat",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "0de8dd1d-cdfb-4ead-9a57-ea12647d27a1",
+      "provider": "go",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 2,
+      "summed_background_overlap_seconds": 7.010239
+    },
+    {
+      "attempt_id": "3a011361-c049-43bf-afc0-4c55646e87e6",
+      "provider": "goat",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "71e7650d-eeb4-4c04-a026-61c311bd72d9",
+      "provider": "go",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 2,
+      "summed_background_overlap_seconds": 9.632351
+    },
+    {
+      "attempt_id": "b420edde-60fe-4e19-a631-aa79f804b87e",
+      "provider": "go",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 2,
+      "summed_background_overlap_seconds": 11.440103
+    },
+    {
+      "attempt_id": "82e100e1-ce59-46c8-bb72-de5fc5e9c75c",
+      "provider": "go",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 1,
+      "summed_background_overlap_seconds": 5.544046
+    },
+    {
+      "attempt_id": "02a19585-306b-4a30-992b-48598232abec",
+      "provider": "goat",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "85660b51-3872-4e9b-b14f-2f1bf1460a4c",
+      "provider": "go",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "3820362d-d920-4184-9a7c-30e6a73f67e2",
+      "provider": "goat",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "ed6d82c6-4911-4140-80f9-e080ba1f03ab",
+      "provider": "goat",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "3c89eb6f-e7c3-4e4a-8cfb-af5ddbfa8d2a",
+      "provider": "go",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "8571ee7d-9052-404c-85ba-d9209d7ec61b",
+      "provider": "goat",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "3bc457e8-18c5-475b-a4d4-872e16e7e48a",
+      "provider": "go",
+      "phase": "concurrency",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "960cd2ec-8896-42ef-8803-4f729a3929d5",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "faa4b7ea-f56b-467e-866f-bc91dba6df30",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 4,
+      "summed_background_overlap_seconds": 42.395445
+    },
+    {
+      "attempt_id": "b72db2d8-4e99-46a2-8970-0246373e8e3b",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "a2da4189-ffd6-4c89-a3eb-a3dea74fddd5",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "138e1a78-9641-4e2a-a639-f4973ac47945",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "34859cdd-462f-48b2-b389-48e4200305d0",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "7c778d34-eba2-4148-8fed-ab5fe05e4813",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "34e81ea4-e351-4928-a33d-42aece07eec8",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "904236ab-9c87-4652-b13d-84abc99da15d",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "d3ea544c-8702-41f9-96df-e84f7b2bd3ff",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "7986af6c-06fb-4de5-a153-c26d2e6ec1c1",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "c1ce8495-0e3f-40a5-be74-9260988d385d",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 1,
+      "summed_background_overlap_seconds": 14.51
+    },
+    {
+      "attempt_id": "2461cfaf-dd29-4ca4-b17b-c37c8b3922fc",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 5,
+      "summed_background_overlap_seconds": 66.345
+    },
+    {
+      "attempt_id": "64a37d7f-c310-48ed-b2b5-9753de1dfccd",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "a8993849-74e2-4015-8458-cc3da7b34d82",
+      "provider": "go",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 1,
+      "summed_background_overlap_seconds": 14.67818
+    },
+    {
+      "attempt_id": "fc862bb4-8653-41a9-9d4f-e66be9e0080c",
+      "provider": "goat",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "29215762-4ef6-4bf9-ae35-c27c1aa2374d",
+      "provider": "goat",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "8cd73c08-f36c-4e99-b209-383d556951cf",
+      "provider": "go",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 4,
+      "summed_background_overlap_seconds": 47.323
+    },
+    {
+      "attempt_id": "b26da89c-67aa-4bbc-8d2e-92d8c2e3cb46",
+      "provider": "goat",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "d25d61bd-32c8-4fce-ad94-1d61b9bfe838",
+      "provider": "go",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 1,
+      "summed_background_overlap_seconds": 47.478119
+    },
+    {
+      "attempt_id": "e95d7c4f-10b8-433d-b18e-b323459dee07",
+      "provider": "go",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 1,
+      "summed_background_overlap_seconds": 3.359951
+    },
+    {
+      "attempt_id": "935bd327-5caf-4d6a-9eff-3454ef406910",
+      "provider": "goat",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "eff89c7c-0a26-49e2-8979-65491178edf3",
+      "provider": "go",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "e901b70a-de24-418c-ad76-5d9bb04b2561",
+      "provider": "goat",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "b7ac0d7e-3921-4499-a90d-5190e7d4e71b",
+      "provider": "goat",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "c82d6585-81fc-4b9e-bc74-bfc56aa8c21f",
+      "provider": "go",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "fa072ca0-b043-4669-aea7-202eb4c91565",
+      "provider": "go",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "5d92390f-40de-49bf-a9c3-061fea84d0c5",
+      "provider": "goat",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "43915109-cc3c-49b5-8e42-9017cbd896c2",
+      "provider": "go",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "692fcbc9-f91a-4555-9baf-b003fdf7519d",
+      "provider": "goat",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "264adf0e-e209-4686-822f-58b3eaa7055c",
+      "provider": "go",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "fe5c68d0-05bb-46ce-8959-972b53888cc6",
+      "provider": "goat",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "0f9837c7-9c16-4b35-8295-3107757d8606",
+      "provider": "go",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "e49bba91-96cd-4e6f-8a82-075b50fb0811",
+      "provider": "goat",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "5b527df1-d0a6-475c-bc3b-b6cf4dbdd413",
+      "provider": "goat",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "54d1387d-a9a9-48d4-9263-d2ebc229d7b2",
+      "provider": "go",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "739681e0-855e-4559-965a-4d67fdebe83d",
+      "provider": "goat",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "c46fbfc5-ec1d-45b7-9d85-bc52e9a55db5",
+      "provider": "go",
+      "phase": "context",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "e9e703ed-4bcd-4082-92be-e03bb40072a9",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "0e75fe35-25c0-4e77-8b09-9bbb8d6405bb",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "e51e2008-350d-45e8-be68-37dfe68f4e4f",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "7388c947-2afd-4f07-b5b5-9845a167be07",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "0b2c28d9-e0c1-447c-b627-d43ade311de3",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "7951d65b-9cd8-4eb5-9ba7-0ffc66d8a6e8",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "2c9b6079-f5bd-47cf-8872-ee041df08b8a",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "475f204f-6c68-4c2a-97ca-f64d44facb27",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "2fbb7236-07d5-4fec-831f-4306d579eded",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "a01a4d00-1c67-4075-94d4-b447ce6ab26f",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "349edea3-f67f-4808-a6ae-02c26414d54c",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "1e68fd36-00da-478c-965c-d88e1868e119",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "32c2548e-a300-4da0-ad8c-a7074549d82a",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "1bac4f25-2464-497d-8b6a-cd79f05f839b",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "691ce0e6-db80-4761-8ad0-7b81974169f3",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "5672df28-c1e5-4552-9d72-90d181b253f3",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "06150804-9c76-4803-80b2-06cf887af3ff",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "d68b6320-3140-4f03-9761-acd6c1897ef9",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "4bf34c9f-4959-449f-afe1-50fac4995816",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "680b424f-4d4f-4b6a-b425-14fc1fea68c6",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "b2ad1cd0-42ec-46e7-989a-ffcb26dcda5a",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "eaafdc91-92d8-4c83-b1e8-9d2bae4c8af3",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "821c478f-a6fd-40cb-96d2-fcd855807c9d",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "f090c118-a34f-4243-bfc1-212fbff4a31c",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "c4ed4b1c-ff5e-40d5-89b1-158dd5ad5de9",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "0467f2b0-ab82-4a0c-8d02-89069b192c0d",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "c2b09618-7b8c-4963-bd6e-aba9c1cdb428",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "2309fe61-febd-4c2d-8e1b-f662c4fe8ddb",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "78c3bc63-d7d3-4ac8-b6b3-ec747e53c70b",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "cb4c813e-c603-4855-ba87-1d05e2513917",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "0b5447d5-0167-4ecf-92b1-30e1cb202e06",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "4082fa87-556e-446a-91b3-a9f270aa24ac",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "5698a4c7-9ecf-4fd7-939c-b86a4693bb7c",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "b58a75b9-6b68-4eb9-a26d-285d4154b783",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "b27a4ffb-8ca6-4863-9691-2c8df8894f7b",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "f50ad652-14b8-42a7-be15-b3b55a7e4bba",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "31f5514f-b67f-4965-897e-02af13396cff",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "2583deed-b012-475a-aed7-051a0a4b1a55",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "d459dac5-8a2e-4e68-b992-bd5e6a52e429",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "a4214f56-74f6-4ce4-95c9-806a1d28f9cd",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "6824c840-7c78-4f93-8c65-60de76051ffe",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "2e6fd6fd-9c82-43c3-a881-db8ed93a0cf7",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "d22ad54d-0f23-41b6-a882-f93c9c2b8fb8",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "2cfee54f-a5d1-42d6-8a16-281990b15a26",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "185d0848-36b0-4b6c-aff2-a6585e3fbe9d",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "28fdb583-e912-4a45-8697-0f95bb43ad48",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "bd742c44-05dd-4f27-938c-e05673055c67",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "72513f8b-55e2-4eb2-8e67-6e06b411b119",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "e2131dda-d701-4496-a30d-31b27b038896",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "faa6b992-7ed9-40eb-8f32-a65b174bcfdc",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "16c489b5-aaee-453c-84ce-f06e4684a994",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "9b0c101c-04ed-40a0-bf49-6dd681ff7e63",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "5d25c5d9-d223-4486-bd19-e7bfe20837e3",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "6c10df65-591f-402b-8127-2265e1db0ad4",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "2c2ebd5f-7bd8-4af4-9484-a1d59d75aec2",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "09a03515-cc9d-46e8-aa8b-de2e943dc03d",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "6305d728-3c6e-463a-a616-39cd0af100dc",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "1d77f561-ea66-417e-9088-016ba616e053",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "55762267-6d41-4d37-ac94-c5f683c2d29f",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "9de6743e-6d2a-4f69-9d7a-c4aeb5164c7d",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "602795cb-c620-4f55-ab6b-c3e5453a28db",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "9475046b-9238-49d9-b482-72fb7146b641",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "9c242391-9539-44c7-b6dc-e069540e7e3d",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "403b510d-c882-4039-9679-64633eeb9701",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "bf68c82a-dc49-4a8f-900c-808ae8bf79a7",
+      "provider": "go",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "25a1279e-65bc-4557-be66-4c520cea3ed3",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "92089baa-eba4-45cc-a137-c15ab9a85dd0",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "dea82611-7bc8-433c-9429-32f9bee8a722",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "77ac1b47-840b-48c9-9116-9a0e109ef9c4",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "fcfdb572-6176-4557-bdd3-1830de00b8c1",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "a2f37b68-1934-4bec-9ada-f472410bb5d9",
+      "provider": "goat",
+      "phase": "tools",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "3f90c867-f1c3-4f66-9644-9a81ac70d977",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "54d7dfc2-fb94-43d3-a31d-1604d84d4d0c",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "fa9cda7d-05e4-4453-a631-b19472104c6e",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "db810882-68f3-4c91-943b-d54aeba70dce",
+      "provider": "go",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "aae4cb67-f142-4efe-b623-8abc8696182e",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "cd48faa5-a5b6-47a4-aeab-47e7761b6201",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "d74bacdc-3a0e-4080-acc0-8c54d44a2ed7",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "17276a78-4697-4289-97c5-93e873f603bd",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "bc5b299d-474a-4ecf-86ad-7f167c43c1c6",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 6,
+      "summed_background_overlap_seconds": 102.746025
+    },
+    {
+      "attempt_id": "a9e254ac-5530-4ff6-86a4-63b9d60d697c",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "9df37ba6-655d-4e73-ad18-c7908c22e91b",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 5,
+      "summed_background_overlap_seconds": 72.402432
+    },
+    {
+      "attempt_id": "c3c38556-16b5-4665-9e47-90531802d184",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "40c11cb7-9fe9-4e43-899f-31d726599bc0",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 14,
+      "summed_background_overlap_seconds": 151.85507
+    },
+    {
+      "attempt_id": "afb0cda3-fca1-4c7a-a40b-84cf7a1bec5d",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "bdf231f7-8019-48cb-aa1d-31119178dd6b",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "949d2cd6-dd82-463d-bf53-f85889841c74",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 9,
+      "summed_background_overlap_seconds": 88.121982
+    },
+    {
+      "attempt_id": "30f8e606-7099-468b-9efa-929c78e6f7f3",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 9,
+      "summed_background_overlap_seconds": 88.87299999999999
+    },
+    {
+      "attempt_id": "fecd8024-46d4-4079-9f17-30a2dd30c108",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "40bd5cb9-6925-4b17-915b-4dc6f50c256f",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "209b3847-db39-4072-ae71-7799b52b8207",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "2bc977fd-87a6-495c-8557-135b574688ef",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "a4e67e55-33f9-45b3-80d8-7bbc2b6cae31",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 1,
+      "summed_background_overlap_seconds": 2.06919
+    },
+    {
+      "attempt_id": "e4984353-3871-48b0-befa-32ae7a0b1b6a",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "d2ead0b4-4a59-4e77-918b-8010f20ab703",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "dadf9962-e5e8-4b64-9d1d-4796d8c255e8",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "d63d2b87-5188-46df-ab81-28e8a72cc9b3",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 1,
+      "summed_background_overlap_seconds": 2.110889
+    },
+    {
+      "attempt_id": "4782e4c5-e0e0-4a46-8ea8-62d1a5d4e710",
+      "provider": "go",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "02c607e3-27cd-4984-b7fb-7e378cc433ba",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "84fe61f2-f049-4415-b3b1-2e2b9fbc7642",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "9292502b-c0f8-46c2-bb3f-fe4215cd6733",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "8ac59b65-017d-4b76-93bf-81a4387c3d37",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "907bb226-f738-4c2b-8276-72c1fd67bb36",
+      "provider": "go",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "9e83b4ae-31bd-4aba-920d-c1d70feda659",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "f8c7c3b5-2d1f-479f-8aca-de38222b595e",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "51f0acf0-6e1e-441d-afaf-c66310f41642",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "038c0102-df17-4ffa-8a39-992abf4e9a6d",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "de8ee86d-c94e-44af-b103-833d74900d5d",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "9c99b35b-cdfe-4a4a-942e-a99eed3a239f",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "222fefc0-7405-45b8-914d-054613745ebc",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "5d16b1ab-220c-4db3-8bc7-196ef4253548",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "5003bc33-68e1-488b-bcd7-45ffdbcd0697",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "5729059b-8805-4990-bb61-f2896525ed10",
+      "provider": "go",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "c642d7ec-8455-4ddd-9388-07d687d9255e",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "cafacf89-73b6-4dba-8c1e-53609dc87d12",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "badac8c8-4c1b-40b6-8534-f197a67a29d1",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "b87edd25-d327-4fe2-8a1d-0e159816eaf7",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "1d0e9fd4-2e51-4a71-993f-f731897f07ee",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "aff71a9f-4e3d-4b76-88f9-9ed920ebe334",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "e9cd43b8-f2fc-437a-9f62-6a153500f69c",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "ccc8c130-510f-4f54-b9f3-ea7e9fe22e79",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "f6fe37e8-958f-45de-9ef9-fca572bb20f8",
+      "provider": "go",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "ecbb0e55-46ab-4aab-9cad-44321028a6bb",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "aca387e1-3f36-4f08-9f26-613a1e66a003",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "8f9d9a53-f114-44c1-b714-8be1d1debdda",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "a94417da-6827-4599-89eb-c79b2dc383b8",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "c7d3b10a-b355-4763-b95e-6980d546fe25",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "07c46b27-339f-405d-9f08-4062dfd859f2",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "e1ef1d04-3d0a-41a6-a7df-c7a1b1f5789b",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "8e15b0e6-3990-43f2-9507-9fcb3451b1c1",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "21872a9b-3d6e-481f-9936-b25d24afc026",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "9e599b27-e90a-428a-bede-f94a992b110e",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "1bdc9432-ffc7-4aa0-8785-c571cead707d",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "7e62eab9-a697-4032-b965-4a31f9ebb4f4",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "99e610f1-592c-4984-b9fa-27264d96cae8",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "43efe538-497d-4329-81ad-fc5b075e3748",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "de46befa-d8be-4089-9bd6-590938a9686d",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "ed464a9d-1ac1-4167-a24a-71c2e627f5e6",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "f82c40cd-2a8e-4560-8f59-de30f9f093be",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "96928f4c-ee31-462e-abe0-24d9d7dd9059",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "83952636-3fc8-4537-b727-aa7883ec0d8d",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "ac849b69-ce7d-430a-aa6e-d2b40a555d06",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "e829896d-4683-45f3-93ee-81b8999bfc30",
+      "provider": "go",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "84e981b5-502d-4838-ae3e-388098f1cc18",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "8fffc885-09f5-4bfd-ad75-d1ea8a72a3e0",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "9e34ee8f-a943-460c-b41b-666d2670f823",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "e6069bfd-cdfb-41f8-9e1f-e50689e81d22",
+      "provider": "go",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "285c27c5-e91e-42e1-b8ec-e43e7f36ce38",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "e56e83f1-2365-48a4-b25d-27d047e3a9ed",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "feba6343-698f-47fd-9243-7b69c22a58dc",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "a6e3ad4b-ee5e-4a09-963c-f61715ec33e6",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "5820c99e-20a9-4e54-a4d1-026a76369a97",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "550ab2ca-e962-41b7-bb89-a3c26c7e4c73",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "f55e2307-ac88-44f0-ab5a-ceb9c0f943a4",
+      "provider": "go",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "db177cbe-88e1-4f85-9f30-b39b528dc54c",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "a2950ec1-dfd1-40d5-936c-023e3080b5de",
+      "provider": "goat",
+      "phase": "core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "4f2c3a17-cac4-47f5-86a9-fc8c22fb0b56",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "27901fa3-f32a-4584-816c-721795677811",
+      "provider": "goat",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "61451718-ef2a-4be5-b3d6-2df207d266f0",
+      "provider": "go",
+      "phase": "core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "f3408ed1-447f-4765-b8cd-a2e85c90b931",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "6d4ebdb4-ffa4-499c-a45f-cba83d32d58b",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "62d23b18-7299-4dbf-ae81-e9a90996c166",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "ca7a0a6f-de02-4900-818b-7c41bd06c8dc",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "767663eb-f307-4016-b38d-ecfd3975b123",
+      "provider": "goat",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "de85ced1-8100-465b-b00d-7c5619deabe4",
+      "provider": "goat",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "80b305dd-3c6d-42db-a1a8-81c7ba59c9d0",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "cdba190a-ed0a-4839-a015-77a70cbead9b",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "1e2281b3-ccda-47bc-a973-2a1e2cce6a34",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "80a91689-9ab0-4347-b40c-07570a92fa28",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "76833281-b4a4-41bb-8b77-7dc0babbf275",
+      "provider": "goat",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "8e96b5b5-871b-4b89-b8f6-c03b6d6817f4",
+      "provider": "goat",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "748d7723-124c-46e1-b619-95356763ae01",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "37e6c5b8-b182-4df4-8c72-ca56af726175",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "15c9f163-0fcc-49bd-af9b-1bf2051cdd59",
+      "provider": "go",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "5f389c5c-d8d0-4860-83ab-c10efd0f1343",
+      "provider": "go",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "195a185b-c5fd-4f04-85ce-7f27eb2b4191",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "6e18b2e3-fd28-4f27-85bb-d327e4c8a88c",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "b62301e4-e0cf-474d-880c-f4e6192304a1",
+      "provider": "goat",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "e67811ee-b4b1-4d85-9448-d310607995fe",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "62b4e7a0-5ca9-4439-9828-694844e34b71",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "70b1db07-165a-4461-a253-9e163da1c917",
+      "provider": "goat",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "64383e71-22de-4751-8242-089db25fc0bf",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "0da0a635-71d7-4be1-aa5b-e284fe6670d4",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "0148df29-c822-4d42-a960-b9e90cf6857b",
+      "provider": "go",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "eec564b2-951c-4a4e-959b-874437316d20",
+      "provider": "goat",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "75bf693f-495a-4f83-900c-58ea816c31f4",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "d00bebf0-7dd1-4488-8bc1-5e83d54add0b",
+      "provider": "go",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "656ea6c9-71dd-41f3-9d8d-ed2bd81f2793",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "8557bb39-98c2-487d-885d-3ab4ec1af21e",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "81f9a25c-6943-4522-826f-c6a1abaa984c",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "6ddf3a9e-7a3d-4086-a3cf-8c4f7613c771",
+      "provider": "goat",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "37945f9c-8cbd-4e8f-b7f2-8fde8302dcaf",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "3f3d4e21-26d7-46d3-b1ea-2091e0378e8c",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "c1f38e9a-08ca-4182-b3f5-e94c24024bb1",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "3e3455ba-32f1-4977-abd4-a9956da25e88",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "2d4e920a-f2c5-4047-a275-2339dc0b5c4b",
+      "provider": "go",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "27552647-a348-4cc9-9ea9-9e8bcccb86e5",
+      "provider": "go",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "b523ce1a-86f7-4a34-a98b-574b70bed153",
+      "provider": "goat",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "cba8d5bf-2fed-4950-b709-18bf558762a1",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "1c88f0fb-4cdd-4376-af58-d912f33ca7fb",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "8f524458-f9b0-4b88-9a45-51f3fa5b9780",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "273e6295-6517-4f5b-9eab-6323b019c8a2",
+      "provider": "goat",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "7a26d2e3-a150-4655-bcc8-841a56cdac51",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "9cb9cb9e-d747-41fd-9c77-393184795ba6",
+      "provider": "goat",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "4269292a-9a77-4607-bf3c-4aead52e5b4a",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "8b341d18-56f6-46f2-99ca-80b08008cc4c",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "a4b5a22d-9353-40f2-9c6a-08f81ec78d8e",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "76ec5d23-8fde-46de-9b57-2773d78cb580",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "57653d5d-db54-4283-8aef-4613b1335d95",
+      "provider": "goat",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "ba8c6565-f4e5-494f-b087-bf25a798b333",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "d22a5483-ecf6-4cd8-ae0f-c685e1fded3a",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "2f15186c-5308-4519-8ac5-f596aea47c65",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "e0fa4fbb-0718-4dbb-8616-af74274250eb",
+      "provider": "go",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "665ec847-6010-4882-9c99-725e5426f7d5",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "fd1a9479-dddc-4e38-8e80-375c119224f1",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "57713724-6d79-4157-9cbe-4b8d017aa4eb",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "53aeec67-eee6-42a7-bc6e-4910fe52bca8",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "f7e13f8e-d32e-4bd5-8336-66eef17ea10e",
+      "provider": "goat",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "330cfa08-4d75-4fdb-8e47-52bdb18df709",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "9cbdf227-9a41-4858-87da-b31097a437bd",
+      "provider": "goat",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "a750fb96-0446-4a96-ba9c-b72d7edc596e",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "2d6d7577-1ed8-4381-8e63-da96e5de4374",
+      "provider": "go",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "8fd219ea-f093-4cc5-a2a7-bb447b5828d6",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "565bbec0-7afc-467a-a171-482da98ce75b",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "b2e81d4e-2396-4fef-a85d-14a528581843",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "d32f3b45-0bc8-4f89-b86c-9442b23417c3",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "b2cd807e-cdfc-453b-951e-afbd11206f42",
+      "provider": "go",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "976dfc56-026f-4803-8fa1-d0ee33c5073e",
+      "provider": "go",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "0a91968d-cec1-4b01-99d9-74c9eb5373e8",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "ad2b6bda-6def-4cbb-90dd-b06703c8368f",
+      "provider": "goat",
+      "phase": "low_core_first",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    },
+    {
+      "attempt_id": "45fae6cc-07bd-4fc6-8180-bff481fe68af",
+      "provider": "goat",
+      "phase": "low_core_repair",
+      "same_model_background_calls_overlapping": 0,
+      "summed_background_overlap_seconds": 0
+    }
+  ],
+  "limitation": "Only logged completed background calls are visible; in-flight activity and other models/providers are not measured. Summed overlaps may exceed elapsed time when multiple calls overlap."
+}

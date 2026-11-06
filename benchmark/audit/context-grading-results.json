@@ -1,0 +1,47 @@
+{
+  "no_upstream_calls": true,
+  "no_credential_reads": true,
+  "fake_calls": 24,
+  "checks": [
+    {
+      "variant": "valid",
+      "n": 3,
+      "full_json_passed": 3
+    },
+    {
+      "variant": "extra_key",
+      "n": 3,
+      "full_json_passed": 0
+    },
+    {
+      "variant": "missing_key",
+      "n": 3,
+      "full_json_passed": 0
+    },
+    {
+      "variant": "bool_for_int",
+      "n": 3,
+      "full_json_passed": 0
+    },
+    {
+      "variant": "wrong_nested_owner",
+      "n": 3,
+      "full_json_passed": 0
+    },
+    {
+      "variant": "incomplete_valid_content",
+      "n": 3,
+      "full_json_passed": 0
+    },
+    {
+      "variant": "fenced_json",
+      "n": 3,
+      "full_json_passed": 0
+    },
+    {
+      "variant": "wrong_order",
+      "n": 3,
+      "full_json_passed": 0
+    }
+  ]
+}

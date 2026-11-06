@@ -1,0 +1,10 @@
+{
+  "analysis_json_sha256": "cf4844df1045a0a9a664fbe5b9560cad4ed33c6c93071086b9bccd6f3adbda5c",
+  "workbook_mjs_sha256": "99a99147e470e8fb737abd774f3e9a9fefd34d6b4e8acb59e525a39b2f51db8a",
+  "formula_check_json_sha256": "940e82ce6ddd54c25aa13cc07dc3695263ada8a08f49c7f17bd185d918cebfc8",
+  "rows_independently_recomputed": 15,
+  "numeric_disagreements": [],
+  "sensitivity_halves_and_restores": true,
+  "partial_data": true,
+  "read_only_workbook_review": true
+}

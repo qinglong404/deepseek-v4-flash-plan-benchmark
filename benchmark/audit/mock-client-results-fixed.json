@@ -1,0 +1,69 @@
+{
+  "client_sha256": "2533e9add1d9bae5fa933e41b0f8617465567dcd34f660b763196e9dd244f166",
+  "no_external_calls": true,
+  "no_credential_reads": true,
+  "cases": {
+    "normal": {
+      "complete": true,
+      "failure_class": null,
+      "error": null,
+      "malformed_events": null,
+      "total_ms": 2100.0
+    },
+    "missing_done": {
+      "complete": false,
+      "failure_class": "incomplete_protocol",
+      "error": null,
+      "malformed_events": null,
+      "total_ms": 2000.0
+    },
+    "done_without_finish": {
+      "complete": false,
+      "failure_class": "incomplete_protocol",
+      "error": null,
+      "malformed_events": null,
+      "total_ms": 2000.0
+    },
+    "malformed_tool_args": {
+      "complete": false,
+      "failure_class": "malformed_protocol",
+      "error": null,
+      "malformed_events": null,
+      "total_ms": 2100.0
+    },
+    "missing_tool_identity": {
+      "complete": false,
+      "failure_class": "malformed_protocol",
+      "error": null,
+      "malformed_events": null,
+      "total_ms": 2100.0
+    },
+    "malformed_event_then_valid_stop": {
+      "complete": false,
+      "failure_class": "malformed_protocol",
+      "error": null,
+      "malformed_events": 1,
+      "total_ms": 3100.0
+    },
+    "stream_error": {
+      "complete": false,
+      "failure_class": "transport",
+      "error": null,
+      "malformed_events": null,
+      "total_ms": 2100.0
+    },
+    "deadline_literal": {
+      "complete": false,
+      "failure_class": "deadline",
+      "error": "application_deadline_1s",
+      "malformed_events": null,
+      "total_ms": 2000.0
+    }
+  },
+  "findings": {
+    "malformed_tool_args_accepted": false,
+    "missing_tool_identity_accepted": false,
+    "malformed_event_ignored": false,
+    "deadline_message_hardcoded": false
+  }
+}

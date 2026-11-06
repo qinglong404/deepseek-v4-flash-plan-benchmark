@@ -1,0 +1,262 @@
+{
+  "python_worker": "/usr/bin/python3 -I -S (3.12.3)",
+  "worker_sha256": "a743806b09d28a19b88abe34700740ca2493d927dc6a8899221a790f8f8305af",
+  "grading_sha256_read_review": "69900301ee2bfde718de7fe60f7355feb5bf451d1f1696a5f5cfc1b6ec01d1b8",
+  "no_model_calls": true,
+  "no_credentials_read": true,
+  "sandbox_boundary": "same bwrap --unshare-all mount/env/process boundary as production grader; only audit input paths differ",
+  "results": [
+    {
+      "id": "sse_stream/reference",
+      "expected_pass": true,
+      "actual_pass": true,
+      "checks_passed": 54,
+      "checks_total": 54
+    },
+    {
+      "id": "sse_stream/negative",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 50,
+      "checks_total": 54
+    },
+    {
+      "id": "ttl_lru/reference",
+      "expected_pass": true,
+      "actual_pass": true,
+      "checks_passed": 44,
+      "checks_total": 44
+    },
+    {
+      "id": "ttl_lru/negative",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 19,
+      "checks_total": 44
+    },
+    {
+      "id": "atomic_ledger/reference",
+      "expected_pass": true,
+      "actual_pass": true,
+      "checks_passed": 46,
+      "checks_total": 46
+    },
+    {
+      "id": "atomic_ledger/negative",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 19,
+      "checks_total": 46
+    },
+    {
+      "id": "priority_schedule/reference",
+      "expected_pass": true,
+      "actual_pass": true,
+      "checks_passed": 44,
+      "checks_total": 44
+    },
+    {
+      "id": "priority_schedule/negative",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 9,
+      "checks_total": 44
+    },
+    {
+      "id": "json_patch/reference",
+      "expected_pass": true,
+      "actual_pass": true,
+      "checks_passed": 60,
+      "checks_total": 60
+    },
+    {
+      "id": "json_patch/negative",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 21,
+      "checks_total": 60
+    },
+    {
+      "id": "path_glob/reference",
+      "expected_pass": true,
+      "actual_pass": true,
+      "checks_passed": 68,
+      "checks_total": 68
+    },
+    {
+      "id": "path_glob/negative",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 63,
+      "checks_total": 68
+    },
+    {
+      "id": "interval_allocator/reference",
+      "expected_pass": true,
+      "actual_pass": true,
+      "checks_passed": 44,
+      "checks_total": 44
+    },
+    {
+      "id": "interval_allocator/negative",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 28,
+      "checks_total": 44
+    },
+    {
+      "id": "utf8_frames/reference",
+      "expected_pass": true,
+      "actual_pass": true,
+      "checks_passed": 45,
+      "checks_total": 45
+    },
+    {
+      "id": "utf8_frames/negative",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 39,
+      "checks_total": 45
+    },
+    {
+      "id": "decimal_invoice/reference",
+      "expected_pass": true,
+      "actual_pass": true,
+      "checks_passed": 46,
+      "checks_total": 46
+    },
+    {
+      "id": "decimal_invoice/negative",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 27,
+      "checks_total": 46
+    },
+    {
+      "id": "migration_plan/reference",
+      "expected_pass": true,
+      "actual_pass": true,
+      "checks_passed": 46,
+      "checks_total": 46
+    },
+    {
+      "id": "migration_plan/negative",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 42,
+      "checks_total": 46
+    },
+    {
+      "id": "shortest_route/reference",
+      "expected_pass": true,
+      "actual_pass": true,
+      "checks_passed": 48,
+      "checks_total": 48
+    },
+    {
+      "id": "shortest_route/negative",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 45,
+      "checks_total": 48
+    },
+    {
+      "id": "record_conflicts/reference",
+      "expected_pass": true,
+      "actual_pass": true,
+      "checks_passed": 44,
+      "checks_total": 44
+    },
+    {
+      "id": "record_conflicts/negative",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 12,
+      "checks_total": 44
+    },
+    {
+      "id": "inventory_idempotency/reference",
+      "expected_pass": true,
+      "actual_pass": true,
+      "checks_passed": 40,
+      "checks_total": 40
+    },
+    {
+      "id": "inventory_idempotency/initial_bugs",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 23,
+      "checks_total": 40
+    },
+    {
+      "id": "inventory_idempotency/ignore_quantity_in_fingerprint",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 37,
+      "checks_total": 40
+    },
+    {
+      "id": "inventory_idempotency/restore_full_amount_on_partial_refund",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 37,
+      "checks_total": 40
+    },
+    {
+      "id": "inventory_idempotency/result_aliases_ledger",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 34,
+      "checks_total": 40
+    },
+    {
+      "id": "inventory_idempotency/booleans_count_as_quantities",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 35,
+      "checks_total": 40
+    },
+    {
+      "id": "configuration_overlay/reference",
+      "expected_pass": true,
+      "actual_pass": true,
+      "checks_passed": 62,
+      "checks_total": 62
+    },
+    {
+      "id": "configuration_overlay/initial_bugs",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 28,
+      "checks_total": 62
+    },
+    {
+      "id": "configuration_overlay/permissive_env_and_truthy_false",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 53,
+      "checks_total": 62
+    },
+    {
+      "id": "configuration_overlay/tombstones_survive",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 60,
+      "checks_total": 62
+    },
+    {
+      "id": "configuration_overlay/missing_worker_budget_constraint",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 61,
+      "checks_total": 62
+    },
+    {
+      "id": "configuration_overlay/boolean_leaf_is_integer",
+      "expected_pass": false,
+      "actual_pass": false,
+      "checks_passed": 60,
+      "checks_total": 62
+    }
+  ]
+}

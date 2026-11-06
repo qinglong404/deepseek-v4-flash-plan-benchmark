@@ -1,0 +1,5 @@
+﻿phase,concurrency_per_provider,n_pairs,both_fixture_pass_n,total_seconds_go_wins,total_seconds_goat_wins,total_seconds_ties,total_seconds_missing_pairs,first_visible_seconds_go_wins,first_visible_seconds_goat_wins,first_visible_seconds_ties,first_visible_seconds_missing_pairs
+concurrency,1,2,2,1,1,0,0,0,2,0,0
+concurrency,2,4,4,3,1,0,0,2,2,0,0
+concurrency,4,8,8,5,3,0,0,4,4,0,0
+serial,1,12,12,9,3,0,0,6,6,0,0

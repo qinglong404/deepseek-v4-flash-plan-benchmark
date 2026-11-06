@@ -1,0 +1,43 @@
+Magpie v2 analysis: planned evaluable strata terminal; administrative replacements retained; generated 2026-11-05T22:35:05.578831+08:00
+Only v2. Core sampling unit=task cluster, not hidden assertions. CI=paired cluster bootstrap.
+CORE go: tasks 12/12, first graded 36/36, workflow terminal 36/36, pass@1 macro 0.778, solved macro 0.889, useful/min 0.280.
+SECONDARY go: first source pass after conservative strip=0.889, known 36/36; fenced diagnostics 6/6. Primary repair/wait unchanged.
+CORE goat: tasks 12/12, first graded 36/36, workflow terminal 36/36, pass@1 macro 0.417, solved macro 0.556, useful/min 0.107.
+SECONDARY goat: first source pass after conservative strip=0.806, known 36/36; fenced diagnostics 15/15. Primary repair/wait unchanged.
+CORE first_pass_difference_goat_minus_go: -0.361, 95% CI [-0.556, -0.194], tasks=12, pairs=36, valid draws=10000/10000; positive favors GOAT; state=finite_or_no_data.
+CORE solved_difference_goat_minus_go: -0.333, 95% CI [-0.528, -0.139], tasks=12, pairs=36, valid draws=10000/10000; positive favors GOAT; state=finite_or_no_data.
+CORE first_correct_latency_ratio_goat_over_go: 1.649, 95% CI [1.336, 2.055], tasks=7, pairs=12, valid draws=10000/10000; above 1 favors Go; state=finite_or_no_data.
+CORE workflow_correct_latency_ratio_goat_over_go: 1.948, 95% CI [1.582, 2.383], tasks=9, pairs=17, valid draws=10000/10000; above 1 favors Go; state=finite_or_no_data.
+CORE useful_throughput_ratio_goat_over_go: 0.383, 95% CI [0.241, 0.571], tasks=12, pairs=36, valid draws=10000/10000; above 1 favors GOAT; state=finite.
+POSTHOC first_after_extraction_difference_goat_minus_go: -0.083, 95% CI [-0.250, 0.056], tasks=12, pairs=36; positive favors GOAT. Auto-strip times are counterfactual, not newly measured.
+POSTHOC solved_after_extraction_difference_goat_minus_go: -0.056, 95% CI [-0.139, 0.000], tasks=12, pairs=36; positive favors GOAT. Auto-strip times are counterfactual, not newly measured.
+POSTHOC first_source_correct_latency_ratio_goat_over_go: 1.654, 95% CI [1.339, 1.998], tasks=11, pairs=27; above 1 favors Go. Auto-strip times are counterfactual, not newly measured.
+POSTHOC auto_strip_useful_throughput_ratio_goat_over_go: 0.653, 95% CI [0.465, 0.866], tasks=12, pairs=36; above 1 favors GOAT. Auto-strip times are counterfactual, not newly measured.
+POSTHOC auto_strip_correct_latency_ratio_goat_over_go: 1.628, 95% CI [1.274, 2.066], tasks=12, pairs=32; above 1 favors Go. Auto-strip times are counterfactual, not newly measured.
+LOW SUPPLEMENT go: tasks 12/12, first graded 24/24, workflow terminal 24/24, strict first=0.625, strict solved=0.833, extracted first=0.792. Separate posthoc stratum.
+LOW SUPPLEMENT goat: tasks 12/12, first graded 24/24, workflow terminal 24/24, strict first=0.375, strict solved=0.667, extracted first=0.750. Separate posthoc stratum.
+BASELINE concurrency c=1 go: n=2 exact=2, visible p50/p90/p95=4.102/4.912/5.013s; total=9.841/11.381/11.574s.
+BASELINE concurrency c=1 goat: n=2 exact=2, visible p50/p90/p95=3.338/3.706/3.752s; total=10.240/10.564/10.604s.
+BASELINE concurrency c=2 go: n=4 exact=4, visible p50/p90/p95=3.532/4.117/4.195s; total=8.441/11.888/12.550s.
+BASELINE concurrency c=2 goat: n=4 exact=4, visible p50/p90/p95=3.653/3.804/3.812s; total=10.547/10.781/10.820s.
+BASELINE concurrency c=4 go: n=8 exact=8, visible p50/p90/p95=4.338/5.479/5.899s; total=10.387/13.482/14.115s.
+BASELINE concurrency c=4 goat: n=8 exact=8, visible p50/p90/p95=4.461/18.550/18.602s; total=11.153/25.768/25.829s.
+BASELINE serial c=1 go: n=12 exact=12, visible p50/p90/p95=3.358/3.979/4.208s; total=8.936/12.007/16.974s.
+BASELINE serial c=1 goat: n=12 exact=12, visible p50/p90/p95=3.751/4.989/6.802s; total=10.594/11.924/13.712s.
+CONTEXT 160K go: n=3, full=3, fields=1.000, actual input mean=194095, total p50=89.350s.
+CONTEXT 160K goat: n=3, full=3, fields=1.000, actual input mean=194095, total p50=69.185s.
+CONTEXT 16K go: n=3, full=2, fields=0.926, actual input mean=20296, total p50=53.531s.
+CONTEXT 16K goat: n=3, full=3, fields=1.000, actual input mean=20296, total p50=74.124s.
+CONTEXT 320K go: n=3, full=3, fields=1.000, actual input mean=384495, total p50=68.097s.
+CONTEXT 320K goat: n=3, full=3, fields=1.000, actual input mean=384495, total p50=93.677s.
+CONTEXT 64K go: n=3, full=3, fields=1.000, actual input mean=76499, total p50=65.250s.
+CONTEXT 64K goat: n=3, full=3, fields=1.000, actual input mean=76499, total p50=70.369s.
+TOOLS configuration_overlay go: n=3, source=3, episode=3, censored=0, turn mean=5.667, tool errors=0.
+TOOLS configuration_overlay goat: n=3, source=3, episode=3, censored=0, turn mean=8.000, tool errors=0.
+TOOLS inventory_idempotency go: n=3, source=3, episode=3, censored=0, turn mean=5.000, tool errors=0.
+TOOLS inventory_idempotency goat: n=3, source=3, episode=3, censored=0, turn mean=5.000, tool errors=0.
+REQUESTS go: terminal=148 complete=144 unknown terminal usage=4 missing client finals admin-resolved=1 unresolved=0; known-usage list-equivalent subtotal=$1.122507 (not billing; unknown charges excluded).
+REQUESTS goat: terminal=173 complete=166 unknown terminal usage=7 missing client finals admin-resolved=1 unresolved=0; known-usage list-equivalent subtotal=$1.789451 (not billing; unknown charges excluded).
+ADMINISTRATIVE RECOVERY: 3 excluded attempts retained; 2 missing client finals administratively resolved, usage/time unknown. Original completed grades and drop-recovered-pair sensitivity are separate; no provider failure inferred from collector SIGTERM.
+Convenience throughput ratio GOAT/Go leave-one-task-out range: 0.342–0.424. See mix_grid for 15 task-count mixtures; no arbitrary weighted winner.
+Unknown/pending observations are explicit. See analysis.json tables for raw inputs, pair wins, token/cache/reasoning counts, normalized failure labels and cost uncertainty.

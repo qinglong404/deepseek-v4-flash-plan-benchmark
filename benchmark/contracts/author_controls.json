@@ -1,0 +1,74 @@
+{
+  "sse_stream": {
+    "checks": 54,
+    "reference_passed": 54,
+    "negative_passed": 50,
+    "negative_failed": 4
+  },
+  "ttl_lru": {
+    "checks": 44,
+    "reference_passed": 44,
+    "negative_passed": 19,
+    "negative_failed": 25
+  },
+  "atomic_ledger": {
+    "checks": 46,
+    "reference_passed": 46,
+    "negative_passed": 19,
+    "negative_failed": 27
+  },
+  "priority_schedule": {
+    "checks": 44,
+    "reference_passed": 44,
+    "negative_passed": 9,
+    "negative_failed": 35
+  },
+  "json_patch": {
+    "checks": 60,
+    "reference_passed": 60,
+    "negative_passed": 21,
+    "negative_failed": 39
+  },
+  "path_glob": {
+    "checks": 68,
+    "reference_passed": 68,
+    "negative_passed": 63,
+    "negative_failed": 5
+  },
+  "interval_allocator": {
+    "checks": 44,
+    "reference_passed": 44,
+    "negative_passed": 28,
+    "negative_failed": 16
+  },
+  "utf8_frames": {
+    "checks": 45,
+    "reference_passed": 45,
+    "negative_passed": 39,
+    "negative_failed": 6
+  },
+  "decimal_invoice": {
+    "checks": 46,
+    "reference_passed": 46,
+    "negative_passed": 27,
+    "negative_failed": 19
+  },
+  "migration_plan": {
+    "checks": 46,
+    "reference_passed": 46,
+    "negative_passed": 42,
+    "negative_failed": 4
+  },
+  "shortest_route": {
+    "checks": 48,
+    "reference_passed": 48,
+    "negative_passed": 45,
+    "negative_failed": 3
+  },
+  "record_conflicts": {
+    "checks": 44,
+    "reference_passed": 44,
+    "negative_passed": 12,
+    "negative_failed": 32
+  }
+}

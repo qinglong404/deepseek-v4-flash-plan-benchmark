@@ -1,0 +1,6 @@
+{"phase": "concurrency", "batch": "c4-r1", "concurrency_per_provider": 4, "repetition": 1, "wall_seconds": 25.913044113010983, "new_requests": 8}
+{"phase": "concurrency", "batch": "c2-r1", "concurrency_per_provider": 2, "repetition": 1, "wall_seconds": 10.606201851012884, "new_requests": 4}
+{"phase": "concurrency", "batch": "c4-r0", "concurrency_per_provider": 4, "repetition": 0, "wall_seconds": 14.763967976992717, "new_requests": 8}
+{"phase": "concurrency", "batch": "c1-r1", "concurrency_per_provider": 1, "repetition": 1, "wall_seconds": 9.83859672700055, "new_requests": 2}
+{"phase": "concurrency", "batch": "c2-r0", "concurrency_per_provider": 2, "repetition": 0, "wall_seconds": 13.218261753994739, "new_requests": 4}
+{"phase": "concurrency", "batch": "c1-r0", "concurrency_per_provider": 1, "repetition": 0, "wall_seconds": 11.774721800000407, "new_requests": 2}

@@ -1,0 +1,16 @@
+{
+  "analysis_sha256": "b14fa6e34081b329782a950ab46bdd28b8fafc5e38b91ca82c5157e0dec583b2",
+  "synthetic_returned_attempts_retained": 209,
+  "raw_missing_client_finals": 2,
+  "resolved_administrative": 2,
+  "unresolved": 0,
+  "cohort_complete_with_resolved_admin_records": true,
+  "extra_unresolved_start_blocks_completion": true,
+  "original_completed_restriction_failure_retained": true,
+  "excluded_old_grade_after_new_does_not_override_primary": true,
+  "gateway_zero_tokens_remain_unknown": true,
+  "drop_recovered_pair_pairs": 35,
+  "drop_recovered_pair_task_clusters": 12,
+  "no_API_calls": true,
+  "no_credentials_read": true
+}

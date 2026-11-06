@@ -1,0 +1,55 @@
+{
+  "client_sha256": "2533e9add1d9bae5fa933e41b0f8617465567dcd34f660b763196e9dd244f166",
+  "no_upstream_calls": true,
+  "no_credential_reads": true,
+  "local_request_paths": [
+    "/idle/chat/completions",
+    "/partial/chat/completions",
+    "/slowheaders/chat/completions"
+  ],
+  "deadline_s": 0.25,
+  "cases": {
+    "idle": {
+      "complete": false,
+      "failure_class": "deadline",
+      "deadline_hit": true,
+      "error": "application_deadline_0.25s",
+      "total_ms": 250.72407101106364,
+      "headers_ms": 29.660247004358098,
+      "measured_wall_s": 0.25141589700069744,
+      "journal_events": [
+        "started",
+        "request",
+        "terminal"
+      ]
+    },
+    "partial": {
+      "complete": false,
+      "failure_class": "deadline",
+      "deadline_hit": true,
+      "error": "application_deadline_0.25s",
+      "total_ms": 250.8407239947701,
+      "headers_ms": 10.446699991007335,
+      "measured_wall_s": 0.2518510480003897,
+      "journal_events": [
+        "started",
+        "request",
+        "terminal"
+      ]
+    },
+    "slowheaders": {
+      "complete": false,
+      "failure_class": "deadline",
+      "deadline_hit": true,
+      "error": "application_deadline_0.25s",
+      "total_ms": 1013.7341829977231,
+      "headers_ms": 1013.489892007783,
+      "measured_wall_s": 1.0143841579993023,
+      "journal_events": [
+        "started",
+        "request",
+        "terminal"
+      ]
+    }
+  }
+}

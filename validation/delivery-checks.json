@@ -1,0 +1,11 @@
+{
+  "files_in_archive": 118,
+  "manifest_entries": 117,
+  "exact_magpie_secret_matches": 0,
+  "magpie_local_placeholder_excluded": true,
+  "stored_reasoning_prose_fields": 0,
+  "all_archive_members_hash_verified": true,
+  "archive_bytes": 2517784,
+  "source_analysis_sha256": "3d8d6618943570056bfcb62c4b4b7dd9b82480c26c0d3cf4fbd4ce4ce1add126",
+  "scope": "Only allowlisted evidence; local Magpie apiKey was classified as a placeholder and excluded from literal matching, any non-placeholder value would be byte-scanned in memory; no configuration/auth files are included."
+}

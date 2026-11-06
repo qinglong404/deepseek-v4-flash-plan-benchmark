@@ -1,0 +1,2 @@
+﻿attempt_id,provider,trial_id,task_id,stage,raw_passed,raw_failure_class,normalized_failure_class,passed_checks,total_checks,first_failure_diagnostic,exclusion_reason
+2461cfaf-dd29-4ca4-b17b-c37c8b3922fc,go,record_conflicts-r0,record_conflicts,first,False,semantic,restriction,0,44,ValueError: dunder attribute access not permitted,"entire trial pair invalidated after administrative collector interruption; original observed grade retained, not converted to provider failure or success"

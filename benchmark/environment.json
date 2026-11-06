@@ -1,0 +1,9 @@
+{
+  "collector_python": "3.13.12",
+  "httpx": "0.28.1",
+  "validator_python": "Python 3.12.3",
+  "bubblewrap": "bubblewrap 0.9.0",
+  "plot_dependencies": "matplotlib3.11.2; numpy in isolated plot-env",
+  "workbook_dependencies": "@oai/artifact-tool via bundled primary Node runtime",
+  "source_analysis_sha256": "3d8d6618943570056bfcb62c4b4b7dd9b82480c26c0d3cf4fbd4ce4ce1add126"
+}

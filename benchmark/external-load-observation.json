@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-11-05T20:01:00+08:00",
+  "source": "user-reported, post-hoc",
+  "provider": "opencode-go",
+  "observation": "The user reports that another computer may be running other OpenCode tasks concurrently, so OpenCode may have more real-world multi-opening/shared-account load than this host can observe.",
+  "measurable_on_this_host": false,
+  "effect_on_primary_grades": "none",
+  "effect_on_interpretation": "Observed OpenCode latency and usage already occur under the user's reported real multi-device workflow, but the other host's request count, token usage, overlap duration and remaining rolling allowance are unavailable. Provider-speed attribution and the nominal $100 capacity model must not claim to include exact cross-device consumption.",
+  "decision_rule": "Treat this as an external-load sensitivity, not a failure or an excuse. If OpenCode still has equal-or-better quality-adjusted throughput under this reported load, the direction of its advantage is strengthened. If GOAT leads only on speed, soften causal attribution. Keeping OpenCode also implies its other-device tasks compete for the same rolling 5-hour, weekly and monthly allowance."
+}

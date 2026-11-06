@@ -1,0 +1,47 @@
+{
+  "checked_date": "2026-11-05",
+  "model": "standard DeepSeek V4.1 Flash",
+  "plans": {
+    "opencode_go": {
+      "base_monthly_usd": 10,
+      "model_value_monthly_usd": 100,
+      "five_hour_value_usd": 20,
+      "weekly_value_usd": 50,
+      "source": "https://opencode.ai/v2/docs/console/go/"
+    },
+    "command_goat": {
+      "base_monthly_usd": 10,
+      "additional_processing_fee": true,
+      "model_value_monthly_usd": 100,
+      "five_hour_value_usd": 20,
+      "weekly_value_usd": 50,
+      "sources": [
+        "https://commandcode.ai/pricing",
+        "https://commandcode.ai/docs/plans/goat",
+        "https://commandcode.ai/docs/resources/usage-limits"
+      ]
+    }
+  },
+  "usd_per_1m_tokens": {
+    "off_peak": {
+      "uncached_input": 0.15,
+      "cached_input": 0.003,
+      "output_including_reasoning": 0.6
+    },
+    "peak": {
+      "uncached_input": 0.3,
+      "cached_input": 0.006,
+      "output_including_reasoning": 1.2
+    }
+  },
+  "peak": "Mon-Fri Asia/Shanghai09:00-12:00,14:00-18:00",
+  "pricing_sources": [
+    "https://opencode.ai/v2/docs/console/go/",
+    "https://commandcode.ai/docs/resources/pricing-limits"
+  ],
+  "limitations": [
+    "Public rules as checked today, not future renewal guarantee.",
+    "Not actual invoice, remaining balance, or quota exhaustion measurement.",
+    "Each provider shares allowance across model usage proportions; do not add per-model amounts."
+  ]
+}

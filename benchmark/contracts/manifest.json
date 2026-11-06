@@ -1,0 +1,32 @@
+{
+  "design": "12 equal-weight tasks; every task solved iff all its checks pass",
+  "seed": 2026110501,
+  "case_counts": {
+    "sse_stream": 54,
+    "ttl_lru": 44,
+    "atomic_ledger": 46,
+    "priority_schedule": 44,
+    "json_patch": 60,
+    "path_glob": 68,
+    "interval_allocator": 44,
+    "utf8_frames": 45,
+    "decimal_invoice": 46,
+    "migration_plan": 46,
+    "shortest_route": 48,
+    "record_conflicts": 44
+  },
+  "total_checks": 589,
+  "hashes": {
+    "bank.py": "a9075dec404a89db11d4c0bee7fbb13cb48543c1c51dcfc2c290ddcf2406df95",
+    "freeze.py": "7fd298de2719ec5701a782d8880a3553e0674407f792a1348b7855cecf5c6a77",
+    "fixtures.json": "838247238d6152665e530ffdf93ba31d8e557ecf4a287ef37ef7eb61dca32317",
+    "author_controls.json": "c212a717f52bd75d8b04b3961bdd8fc7871e7f92db119cfb08aa6e6e49d29836"
+  },
+  "independent_author_oracles": [
+    "interval_allocator:cell-grid exhaustive candidate starts",
+    "shortest_route:enumeration of simple paths",
+    "path_glob:recursive whole-path matching plus regex segments",
+    "sse_stream:whole-stream regex line parser and concatenated event comparison"
+  ],
+  "acceptance": "Author self-checks only. Separate independent acceptance required."
+}

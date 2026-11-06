@@ -1,0 +1,14 @@
+{"event": "coordinator_started", "at": "2026-11-05T18:55:15.403736+08:00", "pid": 1030106}
+{"event": "prior_coordinator_ended", "at": "2026-11-05T19:33:54.653764+08:00", "pid": 964718}
+{"event": "stage_started", "at": "2026-11-05T19:33:54.653844+08:00", "script": "run_core.py"}
+{"event": "stage_ended", "at": "2026-11-05T21:26:57.463664+08:00", "script": "run_core.py", "exit_code": 0}
+{"event": "stage_started", "at": "2026-11-05T21:26:57.463738+08:00", "script": "run_context.py"}
+{"event": "stage_ended", "at": "2026-11-05T21:26:57.824678+08:00", "script": "run_context.py", "exit_code": 0}
+{"event": "stage_started", "at": "2026-11-05T21:26:57.824742+08:00", "script": "run_tools.py"}
+{"event": "stage_ended", "at": "2026-11-05T21:26:58.026404+08:00", "script": "run_tools.py", "exit_code": 0}
+{"event": "stage_started", "at": "2026-11-05T21:26:58.026472+08:00", "script": "run_low.py"}
+{"event": "stage_ended", "at": "2026-11-05T22:34:58.714039+08:00", "script": "run_low.py", "exit_code": 0}
+{"event": "processing_ended", "at": "2026-11-05T22:35:01.845865+08:00", "script": "extract_diagnostics.py", "exit_code": 0}
+{"event": "processing_ended", "at": "2026-11-05T22:35:01.937587+08:00", "script": "background_load.py", "exit_code": 0}
+{"event": "processing_ended", "at": "2026-11-05T22:35:05.609675+08:00", "script": "analysis.py", "exit_code": 0}
+{"event": "coordinator_ended", "at": "2026-11-05T22:35:05.609813+08:00"}

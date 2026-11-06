@@ -1,0 +1,114 @@
+{
+  "analysis_sha256": "b14fa6e34081b329782a950ab46bdd28b8fafc5e38b91ca82c5157e0dec583b2",
+  "captured_at": "2026-11-06T01:22:12.353029+00:00",
+  "checks": [
+    {
+      "id": "task_macro_quality_with_unequal_repetitions",
+      "ok": true,
+      "detail": {
+        "expected_difference": 0,
+        "clusters": 2,
+        "pairs": 4,
+        "assertions_not_sampling_units": true
+      }
+    },
+    {
+      "id": "latency_log_ratio_equal_task_weight",
+      "ok": true,
+      "detail": {
+        "expected_ratio": 1
+      }
+    },
+    {
+      "id": "zero_success_and_undefined_bootstrap_draws",
+      "ok": true,
+      "detail": {
+        "estimate": 2.0,
+        "ci_low": null,
+        "ci_high": null,
+        "n_clusters": 2,
+        "n_pairs": 2,
+        "draws_requested": 1000,
+        "draws_valid": 745,
+        "resampling_unit": "whole paired task/dataset cluster",
+        "seed": 2026110517,
+        "undefined_draws_n": 255,
+        "conditional_finite_ci_low": 1.0,
+        "conditional_finite_ci_high": 2.0,
+        "ci_note": "Nominal CI suppressed because some resamples are undefined. Conditional finite quantiles are diagnostic only, not an unconditional 95% interval."
+      }
+    },
+    {
+      "id": "pending_repair_not_imputed_as_terminal_result",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "terminal_first_response_awaiting_grade_is_observed_pending",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "posthoc_fence_sidecar_keeps_primary_actual_wait_and_unknown_diagnostics_separate",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "cost_calendar_cache_subtraction_reasoning_not_double_counted_unknowns_preserved",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "baseline_12_serial_pairs_14_concurrent_requests_6_batches_per_provider",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "tool_source_correct_vs_valid_final_episode_kept_separate",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "superseded_raw_attempts_and_orphans_retained",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "supplementary_low_effort_separate_3_vs_2_rep_task_macro_with_calendar_caveat",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "observed_cross_phase_concurrency_and_half_open_boundaries",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "current_final_run_raw_attempt_retention_and_manual_task_macro_reproduction",
+      "ok": true,
+      "detail": {
+        "source_hashes": {
+          "requests.jsonl": "39041475f77744aa92a1f0d187c33129941496b59ba8ef8e8f2edf1f11b0b260",
+          "attempt-journal.jsonl": "f77b6f17ef483aeb14a1f1c229e1ee293bce520387ffef94b02fdebdf9594fee",
+          "core-results.jsonl": "3d3c85a4f277cfd4581cf8def6ed5b9e03a2cd8a9ced7f0bb05b94ec72b93696",
+          "core-first-grades.jsonl": "d2f569fd14ab5c5fd04f6a41396a7194731f43c3be34e83a828c429fb436fc67",
+          "low-core-results.jsonl": "233d0f0d1b951d3c495c3e5e812e94caf459cef1d74a39c5282b45761068b875",
+          "low-core-first-grades.jsonl": "5808b84f3a1712f21e915aa77389362de4dd620337c323772b4fe778f0dc1f7e",
+          "core-extracted-grades.jsonl": "42657be6a6b24a3cad0d261afd1bb5e66a9481a38154692efb9aebe9cc8a426b",
+          "baseline-results.jsonl": "fa6d547024864801d9ff91fd18eccb94ff95321282fea6aab499bc81ae59c34b",
+          "batch-times.jsonl": "43c6513e09e24a48189bfaa5a5ba8220965b3089abc0705902800a3682d9711c",
+          "context-results.jsonl": "94cca4f0ce5f3055a7c0a30de2f2d9c433af67be82be8855db4245ba6d9faed4",
+          "tool-results.jsonl": "4acf0d7c3b3a5189ce0879bb7f78937126a794efaf548e0f04530e91d9a5f32e",
+          "collector-interruptions.json": "a5680fa2e6c73cc0c1927034f29a9c2f29b251d326a477e74cca9194976f0a5a"
+        },
+        "request_attempts": 321,
+        "core_trials_observed": 72,
+        "core_task_clusters_first": 12,
+        "orphan_count": 0,
+        "partial": false
+      }
+    }
+  ],
+  "no_API_calls": true,
+  "no_credential_reads": true
+}

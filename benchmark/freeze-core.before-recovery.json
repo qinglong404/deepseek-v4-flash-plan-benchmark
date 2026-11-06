@@ -1,0 +1,12 @@
+{
+  "PLAN.md": "a78ec75e350ca58a1f72b3b5588ff3cf6f23a8577a436a974af1bca5dd68f76b",
+  "client.py": "2533e9add1d9bae5fa933e41b0f8617465567dcd34f660b763196e9dd244f166",
+  "worker.py": "a743806b09d28a19b88abe34700740ca2493d927dc6a8899221a790f8f8305af",
+  "grading.py": "69900301ee2bfde718de7fe60f7355feb5bf451d1f1696a5f5cfc1b6ec01d1b8",
+  "run_core.py": "1fb32c72e4dd9f6e48b243ae58fa030b48c67f7ad56b3d54e64a000fc38b7782",
+  "contracts/bank.py": "a9075dec404a89db11d4c0bee7fbb13cb48543c1c51dcfc2c290ddcf2406df95",
+  "contracts/freeze.py": "7fd298de2719ec5701a782d8880a3553e0674407f792a1348b7855cecf5c6a77",
+  "contracts/author_controls.json": "c212a717f52bd75d8b04b3961bdd8fc7871e7f92db119cfb08aa6e6e49d29836",
+  "contracts/fixtures.json": "838247238d6152665e530ffdf93ba31d8e557ecf4a287ef37ef7eb61dca32317",
+  "contracts/manifest.json": "e170c2966f8fdc0bd1704efa4adc0cec0ce21dffa6471f6ffb9f152e2d31bcc1"
+}

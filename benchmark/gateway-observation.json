@@ -1,0 +1,7 @@
+{
+  "magpie_version": "0.1.3029",
+  "commandcode_adapter_version": "0.1.23",
+  "commandcode_adapter_sha256": "7fc55b44eadfcc624c120e85fe7c9318eba71efbf217b73299674d35481bd614",
+  "adapter_readonly_observation": "providerBody preserves explicit low/high; none/off conversion is separate. This source observation does not prove upstream reasoning budgets match.",
+  "no_configuration_changed": true
+}

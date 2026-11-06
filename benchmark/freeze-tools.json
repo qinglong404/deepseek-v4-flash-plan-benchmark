@@ -1,0 +1,10 @@
+{
+  "PLAN.md": "a78ec75e350ca58a1f72b3b5588ff3cf6f23a8577a436a974af1bca5dd68f76b",
+  "client.py": "2533e9add1d9bae5fa933e41b0f8617465567dcd34f660b763196e9dd244f166",
+  "worker.py": "a743806b09d28a19b88abe34700740ca2493d927dc6a8899221a790f8f8305af",
+  "grading.py": "69900301ee2bfde718de7fe60f7355feb5bf451d1f1696a5f5cfc1b6ec01d1b8",
+  "run_tools.py": "3c966d5cba54be35cc8515bbf78b62c6723771cc69a785027ef57c82d053adc8",
+  "scenarios/bank.py": "4d90228d712edd6baef20334b2f909536622bf584545415ecbf942ab878bbe08",
+  "repository-tasks.json": "7c983efe107eff4a96b8dc1bbd8f9ed0cb94bc6ab806299512df91c6c5df8eba",
+  "tool-schemas.json": "679eb7122448a56ef6d08b701f70b5c18737b6504c0ea61dff61f882c2d37b76"
+}

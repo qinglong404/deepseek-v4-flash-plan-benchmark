@@ -1,0 +1,88 @@
+{
+  "quantity_py_sha256": "8abb571d222f287f56a46733ca5674761440f86be83e99e00e8aca3b3849d175",
+  "no_API_calls": true,
+  "no_credential_reads": true,
+  "checks": [
+    {
+      "id": "README_handcase_ratio_of_task_macro_means_includes_failed_costs",
+      "ok": true,
+      "detail": {
+        "strict": 74.07407407407408,
+        "conservative": 111.11111111111113,
+        "counterfactual": 117.64705882352942,
+        "macro_actual_cost": 0.45,
+        "macro_counterfactual_cost": 0.425
+      }
+    },
+    {
+      "id": "uniform_peak_halves_quantity_and_CI_same_bootstrap_draws_matched_provider_double_cost_ratio_half",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "whole_unknown_stage_exclusion_common_actual_population_and_separate_CF_eligibility",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "matched_known_provider_trial_cohorts_ignore_unpaired_cheap_success",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "unknown_original_time_can_be_uniformly_repriced_cache_subtracted_output_charged_once",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "actual_selected_cost_vs_all_raw_admin_request_subtotals_and_unknown_counts",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "zero_success_infinity_and_mixed_undefined_ratio_bootstrap_suppresses_nominal_CI",
+      "ok": true,
+      "detail": {
+        "undefined_draws": 233,
+        "finite_draws": 767
+      }
+    },
+    {
+      "id": "known_zero_cost_positive_success_provider_has_ratio_zero_not_no_data",
+      "ok": true,
+      "detail": {
+        "effort": "high",
+        "pricing": "observed_start_period",
+        "endpoint": "actual_strict",
+        "ratio_goat_over_go": 0.0,
+        "estimate_state": "finite",
+        "direction": "above one means more modeled correct workflows per equal allowance for GOAT",
+        "n_paired_tasks": 2,
+        "n_paired_workflows": 2,
+        "allowance_usd_each": 100,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "bootstrap_draws_requested": 100,
+        "bootstrap_draws_valid": 100,
+        "bootstrap_draws_undefined": 0,
+        "population": "same eligible trial identities in both providers; same pricing/scenario/outcome rule",
+        "bootstrap_unit": "paired whole task cluster",
+        "analysis_status": "known-cost matched subset; no arbitrary overall winner"
+      }
+    },
+    {
+      "id": "source_analysis_hash_uses_exact_consumed_buffer_under_mocked_live_regeneration",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "live_model_cli_retains_source_label_and_hash",
+      "ok": true,
+      "detail": {
+        "workflow_rows": 120,
+        "source_sha256": "3d8d6618943570056bfcb62c4b4b7dd9b82480c26c0d3cf4fbd4ce4ce1add126",
+        "partial": false
+      }
+    }
+  ]
+}
